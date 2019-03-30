@@ -18,6 +18,30 @@ Thereby, the drone did not require any explicit map of the environment, but
 only localize itself relative to the next gate relying on camera images. All computation
 run fully onboard.
 
-## 
+## Ideas for Extensions
+
++ Cope with high speed. Handle motion blur by integrating in training. Develop a general way.
++ The end-to-end learning approach in the paper performed slowly and badly. Enhance this appraoch. Integrate penalty for slowness.
++ Hide and Seek.
++ Reversed ionic wind for convert wind into eletrical energy.
++ Design a training procedure in dynamic environments. Compare performance with training in static environments which also generalize to dynamic environments.
++ Visual-based safe drone convoy navigation. Only the first drone is required to comprehensively autonomously navigate. Leader drones.  
++ Visual-based autonomous anti-collide algorithm for two drones approaching each other. (+Which drone passes gate first).
++ Cope with severe occlusions.
++ Cope with highly dynamic environments.
++ Deal with challenging lighting systems. Mount Headlights with color-alternating light.
+
+## Questions and Problems
++ What if next gate is not seen in picture?
++ What if two gates are seen in picture?
++ What if perceptual aliasing appears? Buy better and more expensive hardware? Reduce computational cost by enhancing algorithm?
+
+## Study more
++ Convolutional neural network (CNN)
++ State-of-the-art path-planning
++ Drones control system
++	SLAM
+
+
 
 
