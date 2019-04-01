@@ -30,6 +30,7 @@ run fully onboard.
 + Cope with severe occlusions.
 + Cope with highly dynamic environments.
 + Deal with challenging lighting systems. Mount Headlights with color-alternating light.
++ Use this approach to correct drift of visual odometry-based approaches.
 
 ## Questions and Problems
 + What if next gate is not seen in picture?
