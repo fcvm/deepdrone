@@ -31,6 +31,22 @@ run fully onboard.
 + Cope with highly dynamic environments.
 + Deal with challenging lighting systems. Mount Headlights with color-alternating light.
 + Use this approach to correct drift of visual odometry-based approaches.
++ *While our current set of experiments was conducted in the context of drone racing, we believe that
+the presented approach could have broader implications for building robust robot navigation systems
+that need to be able to act in a highly dynamic world. Methods based on geometric mapping,
+localization and planning have inherent limitations in this setting. Hybrid systems that incorporate
+machine learning, like the one presented in this paper, can offer a compelling solution to this task,
+given the possibility to benefit from near-optimal solutions to different subproblems.
+Scaling such hybrid approaches to more general environments and tasks is an exciting avenue for
+future work that poses several challenges. First, while the ability of our system to navigate through
+moving or partially occluded gates is promising, performance will degrade if the appearance of the
+environment changes substantially beyond what was observed during training. Second, in order
+to train the perception system, our current approach requires a significant amount of data in the
+application environment. This might be acceptable in some scenarios, but not practical when fast
+adaptation to previously unseen environments is needed. This could be addressed with techniques
+such as few-shot learning. Third, in the cases where trajectory optimization cannot provide a policy
+to be imitated, for instance in the presence of extremely tight turns, the learner is also likely to fail.
+This issue could be alleviated by integrating learning deeper into the control system.*
 
 ## Questions and Problems
 + What if next gate is not seen in picture?
