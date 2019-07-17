@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="Gate">
+    <static>True</static>
+    <link name="link">
+      <pose>0 0 0.5 0 0 0</pose>
+      <inertial>
+        <mass>1</mass>
+        <inertia>
+          <ixx>1</ixx>
+          <ixy>1</ixy>
+          <ixz>1</ixz>
+          <iyy>1</iyy>
+          <iyz>1</iyz>
+          <izz>1</izz>
+        </inertia>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://gate/meshes/gate.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://gate/meshes/gate.dae</uri>
+          </mesh>
+        </geometry>
+        <!--material>
+          <ambient>0 1 0 1</ambient>
+          <diffuse>0 1 0 1</diffuse>
+          <specular>0 1 0 1</specular>
+          <emissive>0 1 0 1</emissive>
+        </material-->
+      </visual>
+
+    </link>
+  </model>
+</sdf>

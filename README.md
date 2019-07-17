@@ -59,6 +59,19 @@ This issue could be alleviated by integrating learning deeper into the control s
 + Drones control system
 +	SLAM
 
+## Setup
+git clone <<Firmware>>
+git tag -l
+git checkout v1.8.2 #My current choice
+git submodule sync --recursive
+git submodule update --init --recursive
 
+## Run Simulation
+roslaunch mavros px4.launch fcu_url:="udp://:14540@127.0.0.1:14557"
+make px4_sitl_default gazebo
+--or--
+roslaunch px4 mavros_posix_sitl.launch
+then
+rosrun offb offb_node
 
 
