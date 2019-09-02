@@ -4,9 +4,9 @@ This schedule provides orientation and is not finalized.
 ## Fly in Simulation
 1. [x] Generate drone race track in simulation.
 2. [x] Generate trajectory through race track.
-..* [ ] Prevent negative z with corridor constraints.
-..* [ ] Nondimensionalization and scaling.
-..* [ ] Optimal segment times.
+   * [ ] Prevent negative z with corridor constraints.
+   * [ ] Nondimensionalization and scaling.
+   * [ ] Optimal segment times.
 3. [x] Launch Gazebo SITL simulation.
 ..* _Release v1.8.2 stable for SITL (my experience)._
 4. [x] Load drone model with integrated camera.
