@@ -1,0 +1,16 @@
+# Fdb version 3
+["pdflatex"] 1567414907 "/home/anjin/catkin_ws/src/deepdrone/thuthesis/main.tex" "/home/anjin/catkin_ws/src/deepdrone/thuthesis/main.pdf" "main" 1567414907
+  "/etc/texmf/web2c/texmf.cnf" 1567411975 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/anjin/catkin_ws/src/deepdrone/thuthesis/main.aux" 1567414907 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/anjin/catkin_ws/src/deepdrone/thuthesis/main.tex" 1554820316 2248 f0dac816445bb62483e0d29084f9b4a1 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1480098815 1458 43ab4710dc82f3edeabecd0d099626b2 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1567413576 4140080 337d333e744979fab31b3894a58618df ""
+  "main.aux" 1567414907 8 a94a2480d3289e625eea47cd1b285758 ""
+  "main.tex" 1554820316 2248 f0dac816445bb62483e0d29084f9b4a1 ""
+  "thuthesis.cls" 1567413983 42451 b435b75ea0c6da99290e55fbe0d869b7 ""
+  (generated)
+  "/home/anjin/catkin_ws/src/deepdrone/thuthesis/main.pdf"
+  "main.log"
+  "/home/anjin/catkin_ws/src/deepdrone/thuthesis/main.log"
