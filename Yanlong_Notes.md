@@ -5,8 +5,8 @@ Information on launching HITL simulation and fly the drone in real world.
 1. Wifi antenna
 2. Power Cable (red)
 3. QGroundControl (connected if red drone appears on screen)
-..* Flight mode: hold
-..* Arming
+   * Flight mode: hold
+   * Arming
 4. POSIX SITL Gazebo
 
 ## Emergency Action
@@ -24,7 +24,7 @@ Drone has a safety switch.
 
 
 ## Communication Scheme
-
+```
 LAPTOP --------------- WIFI ROUTER
    |                          |
    |                          |
@@ -34,4 +34,4 @@ LAPTOP --------------- WIFI ROUTER
    |                          |
    |                          |
   PX4 <--------------------> TX2 (Ubuntu 16)
-
+```

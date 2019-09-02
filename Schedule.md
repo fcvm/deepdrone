@@ -8,9 +8,9 @@ This schedule provides orientation and is not finalized.
    * [ ] Nondimensionalization and scaling.
    * [ ] Optimal segment times.
 3. [x] Launch Gazebo SITL simulation.
-..* _Release v1.8.2 stable for SITL (my experience)._
+   * _Release v1.8.2 stable for SITL (my experience)._
 4. [x] Load drone model with integrated camera.
-..* _Launch SITL with Iris embedding front camera:_
+   * _Launch SITL with Iris embedding front camera:_
 ```
 roslaunch px4 posix_sitl.launch sdf:=/home/fm/src/Firmware/Tools/sitl_gazebo/models/iris_fpv_cam/iris_fpv_cam.sdf
 ```
@@ -20,6 +20,7 @@ roslaunch px4 posix_sitl.launch sdf:=/home/fm/src/Firmware/Tools/sitl_gazebo/mod
 8. [ ] Train and test the algorithm.
 9. [ ] Expand algorithm onto other challenges (moving gates, different gates, ...).
 
+### Optional
 * [ ] Fly drone in HITL simulation with RC transmitter. 
 
 ## Fly in Real World
