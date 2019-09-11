@@ -4,6 +4,8 @@ The top-level auxiliary file: main.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: Chapters/Chapter0.aux
 A level-1 auxiliary file: Chapters/Chapter1.aux
+A level-1 auxiliary file: Chapters/Chapter2.aux
+A level-1 auxiliary file: Chapters/Chapter3.aux
 A level-1 auxiliary file: Appendices/AppendixA.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -21,15 +23,17 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: main-blx.bib
 Database file #2: example.bib
-Warning--I didn't find a database entry for "Fahlstrom2012"
 Warning--I didn't find a database entry for "loquercio2018learning"
+Warning--I didn't find a database entry for "Fahlstrom2012"
+Warning--I didn't find a database entry for "Kong2010"
 Warning--I didn't find a database entry for "Watts2012"
+Warning--I didn't find a database entry for "Ross2018"
 Biblatex version: 3.8
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 4 entries,
             6268 wiz_defined-function locations,
-            1215 strings with 10709 characters,
+            1221 strings with 10783 characters,
 and the built_in function-call counts, 21717 in all, are:
 = -- 1466
 > -- 429
@@ -68,4 +72,4 @@ warning$ -- 0
 while$ -- 295
 width$ -- 0
 write$ -- 150
-(There were 3 warnings)
+(There were 5 warnings)

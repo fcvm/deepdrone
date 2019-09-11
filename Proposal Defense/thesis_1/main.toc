@@ -28,18 +28,51 @@
 \contentsline {section}{\numberline {1.8}Sectioning and Subsectioning}{9}{section.40}
 \contentsline {section}{\numberline {1.9}In Closing}{10}{section.41}
 \contentsline {chapter}{\numberline {2}Introduction}{11}{chapter.42}
-\contentsline {section}{\numberline {2.1}Drones}{11}{section.43}
-\contentsline {subsection}{\numberline {2.1.1}Definition}{11}{subsection.44}
-\contentsline {subsection}{\numberline {2.1.2}Control}{11}{subsection.45}
-\contentsline {subsection}{\numberline {2.1.3}Airframe types}{11}{subsection.46}
-\contentsline {subsection}{\numberline {2.1.4}Areas of Application}{11}{subsection.47}
-\contentsline {subsection}{\numberline {2.1.5}Problems}{11}{subsection.48}
-\contentsline {subsection}{\numberline {2.1.6}Current Research}{12}{subsection.49}
-\contentsline {subsection}{\numberline {2.1.7}This work}{12}{subsection.50}
-\contentsline {subsection}{\numberline {2.1.8}Subsection 2}{12}{subsection.51}
-\contentsline {section}{\numberline {2.2}Creative Introduction}{12}{section.52}
-\contentsline {section}{\numberline {2.3}Terminology}{13}{section.53}
-\contentsline {subsection}{\numberline {2.3.1}Unmanned Aerial Vehicle (UAV)}{13}{subsection.54}
-\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{15}{appendix.55}
-\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{15}{section.56}
-\contentsline {chapter}{Bibliography}{17}{appendix*.57}
+\contentsline {section}{\numberline {2.1}Creative Introduction}{11}{section.43}
+\contentsline {chapter}{\numberline {3}Literature Review}{13}{chapter.44}
+\contentsline {section}{\numberline {3.1}Unmanned Aerial Vehicles}{13}{section.45}
+\contentsline {subsection}{\numberline {3.1.1}Classification by Airframe Type}{13}{subsection.46}
+\contentsline {paragraph}{HTOL}{13}{section*.47}
+\contentsline {paragraph}{VTOLs}{14}{section*.48}
+\contentsline {paragraph}{Hybrid Systems}{14}{section*.49}
+\contentsline {subsection}{\numberline {3.1.2}Dynamics and Control}{14}{subsection.50}
+\contentsline {subsection}{\numberline {3.1.3}Autonomous Flight}{15}{subsection.51}
+\contentsline {section}{\numberline {3.2}Navigation of an Autonomous Quadcopter}{15}{section.52}
+\contentsline {subsection}{\numberline {3.2.1}Low-level control by Autopilot}{15}{subsection.53}
+\contentsline {subsection}{\numberline {3.2.2}High-level control}{15}{subsection.54}
+\contentsline {paragraph}{Human Pilot}{15}{section*.55}
+\contentsline {section}{\numberline {3.3}Civil Applications of Multicopters}{15}{section.56}
+\contentsline {subsection}{\numberline {3.3.1}People Transport}{16}{subsection.57}
+\contentsline {subsection}{\numberline {3.3.2}Freight Traffic}{16}{subsection.58}
+\contentsline {subsection}{\numberline {3.3.3}Agriculture}{16}{subsection.59}
+\contentsline {subsection}{\numberline {3.3.4}Healthcare}{17}{subsection.60}
+\contentsline {subsection}{\numberline {3.3.5}Environmental Protection}{17}{subsection.61}
+\contentsline {subsection}{\numberline {3.3.6}Delivery service}{17}{subsection.62}
+\contentsline {paragraph}{Introduction}{17}{section*.63}
+\contentsline {paragraph}{Potential}{17}{section*.64}
+\contentsline {paragraph}{Applications}{17}{section*.65}
+\contentsline {paragraph}{Limiting factors}{19}{section*.66}
+\contentsline {paragraph}{Current Research}{20}{section*.67}
+\contentsline {subsection}{\numberline {3.3.7}Current Development}{21}{subsection.68}
+\contentsline {subsection}{\numberline {3.3.8}Entertainment}{21}{subsection.69}
+\contentsline {subsection}{\numberline {3.3.9}Power and Utilities Industry}{21}{subsection.70}
+\contentsline {subsection}{\numberline {3.3.10}Passenger Transport}{21}{subsection.71}
+\contentsline {subsection}{\numberline {3.3.11}Cellular Connectivity}{21}{subsection.72}
+\contentsline {subsection}{\numberline {3.3.12}Civil Engineering}{21}{subsection.73}
+\contentsline {section}{\numberline {3.4}Autonomous Flight}{21}{section.74}
+\contentsline {subsection}{\numberline {3.4.1}Traditional Approaches}{21}{subsection.75}
+\contentsline {subsection}{\numberline {3.4.2}Newly Developed}{21}{subsection.76}
+\contentsline {chapter}{\numberline {4}Research Objective}{23}{chapter.77}
+\contentsline {section}{\numberline {4.1}Anticipated Contribution}{23}{section.78}
+\contentsline {subsection}{\numberline {4.1.1}Subsection 1}{23}{subsection.79}
+\contentsline {subsection}{\numberline {4.1.2}Subsection 2}{23}{subsection.80}
+\contentsline {section}{\numberline {4.2}Research Plan}{23}{section.81}
+\contentsline {subsection}{\numberline {4.2.1}Framework for Experiments in Simulation}{23}{subsection.82}
+\contentsline {subsection}{\numberline {4.2.2}Framework for Experiments in Real World}{24}{subsection.83}
+\contentsline {subsection}{\numberline {4.2.3}Perception and Planning Algorithm}{24}{subsection.84}
+\contentsline {section}{\numberline {4.3}Methodology and Elaboration}{24}{section.85}
+\contentsline {section}{\numberline {4.4}Solutions}{25}{section.86}
+\contentsline {section}{\numberline {4.5}Schedule of Thesis Writing and Proposed Date of Defense}{25}{section.87}
+\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{27}{appendix.88}
+\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{27}{section.89}
+\contentsline {chapter}{Bibliography}{29}{appendix*.90}

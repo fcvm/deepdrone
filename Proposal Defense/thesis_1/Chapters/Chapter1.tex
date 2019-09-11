@@ -8,101 +8,15 @@
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 
-\section{Drones}
-
-\subsection{Definition}
-Unmanned aerial vehicles are 
-aircrafts without human pilots onboard
-- in commmon parlance referred to as drones.
-They are components of unmanned aerial systems (UAS)
-which in addition, contain ground control stations (GCS),
-payload and data link. \cite{Fahlstrom2012}
-
-\subsection{Control}
-The control of UAVs is devided into multiple control levels
-(except for some end-to-end learning control methods).
-While on a lower control level, 
-onboard autopilots are permanently maintaining attitude and altitude of the
-instable, flying vehicle in order to prevent collisions and keep the drone maneuverable,
-on a higher level, different actors can navigate the drone or perform maneuvers.
-Either human pilots remotely steer the drone from
-the GCS per radio transmitter (RC) (remotely piloted vehicles (RPV)) 
-relying on direct visual contact to the vehicle 
-or on video stream from an onboard cameras,
-or onboard computers constantly execute 
-algorithms which track trajectories relying on sensor data for state estimation 
-(by navigation systems as GPS, radio, inertial, SLAM, VIO) or other
-perception (vision-based, LIDAR, ...). These trajectories can be static,
-as part of
-precomputed missions or in sense of autonomous flight,
-algorithms constantly generate them.
-The degree of autonomy is floating.
-
-\subsection{Airframe types}
-While the quadcopter is best-known,
-various airframe types exist. They are categorized
-by various criteria such as size, flughohe, reichweite, configuration, ... .
-
-\subsection{Areas of Application}
-
-
-\subsection{Problems}
-Due to the inherent instability of the system, constant control commands must be applied to
-prevent a collision. In the event the robot enters an environment where \textbf{accurate state estimation}
-is computationally impossible due to lack of features, we still want the system to do its best given
-available information to prevent immediate collision.
-
-
-\subsection{Current Research}
-
-
-
-
-
-
-%-----------------------------------
-%	SUBSECTION 1
-%-----------------------------------
-\subsection{This work}
-
-Advancements in autonomous systems for small UAVs have resulted in research on a growing
-number of applications for autonomous quadcopters ranging from infrastructure inspection to
-package delivery.
-Many of these applications require flying robots to navigate close to obstacles through clut-
-tered, GPS-denied, environments. In such cases, safe control and navigation can be particularly
-challenging since a single crash can cause catastrophic failure. Furthermore, safe flight requires
-a robust velocity estimate since in the event of state estimation failure, there is no option to just
-stop and wait.
-Due to the inherent instability of the system, constant control commands must be applied to
-prevent a collision. In the event the robot enters an environment where accurate state estimation
-is computationally impossible due to lack of features, we still want the system to do its best given
-available information to prevent immediate collision.
-This work is motivated by the need to traverse tunnel and corridor-like environment, but
-the methods described here could be easily extended to another environment as long as enough
-training data can be supplied, likely though procedural environment generation in simulation.
-
-%-----------------------------------
-%	SUBSECTION 2
-%-----------------------------------
-
-\subsection{Subsection 2}
-Morbi rutrum odio eget arcu adipiscing sodales. Aenean et purus a est pulvinar pellentesque. Cras in elit neque, quis varius elit. Phasellus fringilla, nibh eu tempus venenatis, dolor elit posuere quam, quis adipiscing urna leo nec orci. Sed nec nulla auctor odio aliquet consequat. Ut nec nulla in ante ullamcorper aliquam at sed dolor. Phasellus fermentum magna in augue gravida cursus. Cras sed pretium lorem. Pellentesque eget ornare odio. Proin accumsan, massa viverra cursus pharetra, ipsum nisi lobortis velit, a malesuada dolor lorem eu neque.
-
-%----------------------------------------------------------------------------------------
-%	SECTION 2
-%----------------------------------------------------------------------------------------
-
 \section{Creative Introduction}
 
-[AREAS OF APPLICATION]
-
 Searching and finding, ordering and paying, possibly reclaming - 
-all of it, nowadays, one click away.
+all of it, nowadays, only one click away.
 Nevertheless, the final step, shipping the package is
 still lasting for days. 
 Unfortunately, traditionally grown structures
 have not been able to keep up with the 
-flexibility gained by the digital revolution.
+flexibility gained by digital revolution.
 And they will never be able to, unless
 packages will be shipped through the real world
 as quick as information can be send - with the speed of light.
@@ -113,117 +27,7 @@ parcel shipment by unmanned aerial vehicles (UAV).
 Thereby autonomous flight, more precisely the robustness, i.e. safety
 as well as speed and feasibility, is the hot topic. Since it is the key to
 responsibely and economically apply this new technic in our cities and villages.
-
 Mastering autonomous flight of UAVs is not only crucial to 
 parcel delivery by drones but also will enable to apply drones in more fields,
 e.g. "aerial surveillance, delivery, or monitoring of existing architectures"
 \cite{loquercio2018learning}.
-
-
-
-Traditional methods for drone navigation work well in simulation
-and even in real word - if the environment is simple and predominantly static.
-But in highly dynamic environments, e.g. cities or forests,
-they must fail due to the fact that the numerous challenges of those 
-environments exceed the robustness of those approaches
-whose success depends on accurate state estimation of the drone.
-High speed bad for estimation. inherent
-Inability to cope with dynamic environments.
-
-
-
-
-
-
-
-Safe and reliable navigation of autonomous systems, e.g.
-unmanned aerial vehicles (UAVs), is a challenging open
-problem in robotics. Being able to successfully navigate
-while avoiding obstacles is indeed crucial to unlock many
-applications of robotics, e.g. surveillance, construction mon-
-itoring, delivery, and emergency response [1], [2], [3]. A
-robotic system facing the aforementioned tasks should si-
-multaneously solve many challenges in perception, control,
-and localization. These become particularly difficult when
-working in uncontrolled environments, e.g. forests or streets
-of cities, as the one illustrated in Fig. 1. In those cases, the
-autonomous agent is not only expected to navigate while
-avoiding collisions but also to safely interact with other
-agents present in the environment.
-The traditional approach to tackle this problem is a two
-step interleaved process consisting of (i) automatic localiza-
-tion in a given map (using GPS, visual and/or range sensors),
-and (ii) computation of control commands to allow the agent
-to avoid obstacles while achieving its goal [1], [4]. Even
-though advanced SLAM algorithms enable localization under
-a wide range of conditions [5], visual aliasing, dynamic
-scenes, and strong appearance changes can drive the per-
-ception system to unrecoverable errors. Moreover, keeping
-the perception and control blocks separated not only hin-
-ders any possibility of positive feedback between them, but
-also introduces the challenging problem of inferring control
-commands from 3D maps. Recently, new approaches based
-on deep learning have offered a way to learn end-to-end
-flying policies, tightly coupling perception and control [6],
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-%----------------------------------------------------------------------------------------
-%	SECTION 3
-%----------------------------------------------------------------------------------------
-
-\section{Terminology}
-
-
-\subsection{Unmanned Aerial Vehicle (UAV)} \cite{Watts2012}
-\textit{Aircrafts that fly without pilots onboard.}
-
-
-An UAV consists of an aircraft component with onboard sensor payload and control systems (autopilot).
-Either, human pilots steer UAVs from 
-a ground control station (GCS) which can be a laptop or, UAVs fly autonomously.
-Various platforms and configurations for UAVs exists for a wide range of applications.
-
-\begin{itemize}
-    \item Area of application
-    \begin{itemize}
-        \item “three Ds” (i.e., dull, dirty, or dangerous missions 
-        in which human pilot operations would be at a disadvantage or at high risk)
-        \item 
-    \end{itemize}
-    \item classes and categories of UAS and considerations for their use
-    \item general types and
-    capabilities of sensor packages available for UAS, and their relative suitability for representative
-    scientific applications
-    \item introduce important principles of government regulation of UAS,
-    with specific examples from the USA and Europe
-\end{itemize}
-
-
-
-
-Unmanned aircraft systems consist of the aircraft component, 
-sensor payloads and a ground control station. 
-They can be controlled by onboard electronic equipments or via control equipment from the ground. 
-When it is remotely controlled from ground it is called RPV (Remotely Piloted Vehicle) and requires reliable wireless communication for control. Dedicated control systems may be devoted to large UAVs, and can be mounted aboard vehicles or in trailers to enable close proximity to UAVs that are limited by range or communication capabilities.
-
-UAVs are used for observation and tactical planning. This technology is now available for use in the emergency response field to assist the crew members. UAVs are classified based on the altitude range, endurance and weight, and support a wide range of applications including military and commercial applications. The smallest categories of UAVs are often accompanied by ground-control stations consisting of laptop computers and other components that are small enough to be carried easily with the aircraft in small vehicles, aboard boats or in backpacks. UAVs that are fitted with high precision cameras can navigate around the disaster area, take pictures and allow the crew members to perform image and structural analysis. As UAV operations require onsite personnel, it will be helpful for onsite crew members to access the disaster area first before entering the disaster affected area. UAVs that are suitable for outdoor operation and can fly at reasonable altitude are used for disaster impact analysis. The important aspect of such UAVs is that the initial assessment gives a clear disaster planning direction. After the survivors are detected via image analysis, crew members can then try to make contact with the survivors and perform quick rescue operations. Nano UAVs can be used in-built and combined with robots capabilities and can be a very useful in detecting structural damages to buildings and detect survivors trapped inside debris.
-
-In recent years, increasing research efforts and developments are improving UAV for various application and reliability. UAV is still in experimental stages at the moment. Also, a shortage of skilled onsite crew member is a bigger problem. [PRA 06] highlights that a minimum of three staff members is required to operate a UAV.
-
-
-

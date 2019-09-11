@@ -1,0 +1,49 @@
+% Encoding: UTF-8
+
+@Article{Kaufmann2018,
+  author       = {Elia Kaufmann and Antonio Loquercio and Rene Ranftl and Alexey Dosovitskiy and Vladlen Koltun and Davide Scaramuzza},
+  title        = {Deep Drone Racing: Learning Agile Flight in Dynamic Environments},
+  abstract     = {Autonomous agile flight brings up fundamental challenges in robotics, such as coping with unreliable state estimation, reacting optimally to dynamically changing environments, and coupling perception and action in real time under severe resource constraints. In this paper, we consider these challenges in the context of autonomous, vision-based drone racing in dynamic environments. Our approach combines a convolutional neural network (CNN) with a state-of-the-art path-planning and control system. The CNN directly maps raw images into a robust representation in the form of a waypoint and desired speed. This information is then used by the planner to generate a short, minimum-jerk trajectory segment and corresponding motor commands to reach the desired goal. We demonstrate our method in autonomous agile flight scenarios, in which a vision-based quadrotor traverses drone-racing tracks with possibly moving gates. Our method does not require any explicit map of the environment and runs fully onboard. We extensively test the precision and robustness of the approach in simulation and in the physical world. We also evaluate our method against state-of-the-art navigation approaches and professional human drone pilots.},
+  date         = {2018-06-22},
+  eprint       = {http://arxiv.org/abs/1806.08548v3},
+  eprintclass  = {cs.RO},
+  eprinttype   = {arXiv},
+  file         = {:http\://arxiv.org/pdf/1806.08548v3:PDF},
+  journaltitle = {Conference on Robotic Learning (CoRL), 2018},
+  keywords     = {cs.RO},
+}
+
+@InProceedings{loquercio2018learning,
+  author    = {Loquercio, Antonio and Scaramuzza, Davide},
+  title     = {Learning to Control Drones in Natural Environments: A Survey},
+  booktitle = {e ICRA Workshop on Perception, Inference, and Learning for Joint Semantic, Geometric, and Physical Understanding},
+  year      = {2018},
+  number    = {CONF},
+}
+
+@Article{Watts2012,
+  author    = {Adam C. Watts and Vincent G. Ambrosia and Everett A. Hinkley},
+  title     = {Unmanned Aircraft Systems in Remote Sensing and Scientific Research: Classification and Considerations of Use},
+  journal   = {Remote Sensing},
+  year      = {2012},
+  volume    = {4},
+  number    = {6},
+  pages     = {1671--1692},
+  month     = {jun},
+  doi       = {10.3390/rs4061671},
+  publisher = {{MDPI} {AG}},
+}
+
+@Book{Fahlstrom2012,
+  title     = {Introduction to UAV Systems 4e},
+  publisher = {John Wiley \& Sons},
+  year      = {2012},
+  author    = {Fahlstrom, Thomas Gleason},
+  isbn      = {1119978661},
+  date      = {2012-09-07},
+  ean       = {9781119978664},
+  pagetotal = {308},
+  url       = {https://www.ebook.de/de/product/19222078/fahlstrom_thomas_gleason_introduction_to_uav_systems_4e.html},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
