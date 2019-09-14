@@ -883,65 +883,180 @@ and for professional uses. %https://mydroneauthority.com/reviews/best-profession
 %	SECTION 4
 %----------------------------------------------------------------------------------------
 
-\section{Autonomous Flight of small quadcopter UAVs}
+\section{Autonomous Navigation Systems of Small Quadcopter UAVs}
+
+For legal classification and restriction,
+the International Civil Aviation Organization (ICAO)
+devides UAVs into either fully remotely controlled 
+or fully autonomous.
+%https://www.icao.int/Meetings/UAS/Documents/Circular%20328_en.pdf
+From technical perspective,
+autonomy is not a static
+but a fluent feature of an UAV
+and thus, more precisely referred to as
+degree of autonomy. For example,
+even a remotely piloted vehicle (RPV)
+usually involves an autopilot
+which supports the human pilot
+during flight by autonomously
+performing tasks, e.g. maintaining pose.
+%and translation of higher order navigation tasks
+%to individual lower level motor commands.
+This section recaps a general
+concept of autonomy as well as
+a hierarchical control architecture for a
+fully autonomous UAV in order to
+subsequently introduce
+autonomous navigation systems of UAVs.
+Traditional and newly developed methods
+related to autonomous navigation
+as well as 
+the research of this work are classified.
 
 
-\paragraph{Autonomy}
+
+\subsection{Autonomy}
+The concept of autonomy extends
+automation 
+onto unexpected situations. 
+Automation replaces human action
+to complete well known tasks in well known, structured environments.
+While an automated system outperforms humans
+with respect to 
+precision, speed and costs,
+it is unable to
+cope with unexpected situations
+since it is engineered to rely on limited
+parameters, variations and disturbances.
+In contrast,
+an autonomous system, 
+due to a deeper based perception,
+is additionally capable of anticapating upcoming events,
+making decisions and reacting properly - like humans.
+It can perform previously unknown tasks
+in totally unknown, dynamically changing environments,
+deal with uncertainty and learn from its failures.
+The design of an autonomous system
+requires the composition of
+various methods from 
+control theory,
+system identification, 
+system estimation,
+communication theory,
+computer science (in particular artificial intelligence)
+and
+operations research.
+With machines making decisions,
+new questions concerning
+ethics,
+responsibility,
+legality
+arise.
 
 
-\paragraph{UAV Navigation Tasks}
+\subsection{Hierarchical Control Architecture of a Fully Autonomous UAV}
 
+In contrast to RPV...
 
-
-\subsection{Architecture of Autonomous Systems for UAVs}
-
-According to the concept of 
-Increasing Precision with Decreasing Intelligence (IPDI),
+Involving the concept of 
+increasing precision with decreasing intelligence (IPDI),
 control architectures of autonomous systems for UAVs 
-can be devided into three control levels, i.e.
-organization, coordination, and execution.
+can be functionally layered
+into three control levels, i.e.
+organization, coordination, and execution
+as well as a supervisor level
+to enable human intervention.
 
-From higher to lower levels,
-tasks are distributed and
-system parameters are altered.
+Downstream, from higher to lower levels,
+commands are distributed and
+system parameters are modified.
 
-From lower to higher level,
-responses and data are passed.
+Upstream, from lower to higher level,
+command responses and sensor data
+%e.g. status, health information, 
+are passed.
+
+Information may also be exchanged within the same level.
+
+The higher the control level,
+the longer the interval of planning and execution time.
 
 
-Higher control levels orchestrate commands
-onto lower levels which send response 
-data upwards.
 
-\paragraph{Execution Level}
+All three levels have access to
+information about 
+environment and state estimates of the UAV.
 
-lowest  intelligent
-involves  conventional  control  algorithms
-interface  to  UAV  via  the  sensors  and  actuators.  
+The least intelligent \textbf{execution level}
+interfaces with sensors and actuators
+of the UAV. While receiving sensor data about
+the state of the UAV and the environment,
+this level runs conventional  control  algorithms 
+on inner-loop and sends low level control
+commands directly to the actuators of the UAV.
+
+
+
+(These algortightms very good researched)
+
+
+
+
+It  senses  the  responses  of  the  vehicle  and  environment,    
+processes    them    to    identify    parameters,    
+estimates   states,   or   detects   failures,   
+and   passes   this   information to the higher levels.
+
 
 \paragraph{Organization Level}
 
 highest   intelligent    and    lowest    precision
 involves    intelligent,    decision-making  methods,  
-situation  evaluation  and  mission  management.  
+situation  evaluation  and  mission  management. 
+
+
+
 
 \paragraph{Coordination Level}
 
 The  middle  level
 interface between the actions of the other  two  levels  
 combination  of  conventional  and   intelligent   decision   making   methods.   
+outer-loop
 
+middle-loop  to  generate  the  trajectory,  guidance  and  other  signals
 
-
-
-
- 
-  
 
 
 
 %https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5375937
 
+
+\subsection{Autonomous Navigation Systems for Small Quadcopters}
+Flight Control Pipeline
+
+
+\paragraph{Classical System Architecture}
+Env - Sensor - State (Velocity) Estimation                              - Velocity Controller - Flight Controller - Motors
+             - obstacle detection - local planner - position controller -
+
+
+\paragraph{Camera Based System Architecture For Reactive Flight Control Pipeline}
+
+\paragraph{System Architecture For Fully End-to-End LIDAR Based Reactive Flight Control
+Pipeline}
+
+
+\paragraph{LIDAR to Actions System Architecture}
+
+QUELLE SAMZENG
+
+In case of a small UAV,
+one major point is to
+guarantee that the algorithms
+can be executed in real time
+since onboard hardware is constrained
+by small payloads.
 
 
 

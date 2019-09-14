@@ -59,27 +59,30 @@
 \contentsline {subsection}{\numberline {3.3.10}Passenger Transport}{21}{subsection.71}
 \contentsline {subsection}{\numberline {3.3.11}Cellular Connectivity}{21}{subsection.72}
 \contentsline {subsection}{\numberline {3.3.12}Civil Engineering}{21}{subsection.73}
-\contentsline {section}{\numberline {3.4}Autonomous Flight of small quadcopter UAVs}{21}{section.74}
-\contentsline {paragraph}{Autonomy}{21}{section*.75}
-\contentsline {paragraph}{UAV Navigation Tasks}{21}{section*.76}
-\contentsline {subsection}{\numberline {3.4.1}Architecture of Autonomous Systems for UAVs}{21}{subsection.77}
-\contentsline {paragraph}{Execution Level}{21}{section*.78}
-\contentsline {paragraph}{Organization Level}{21}{section*.79}
-\contentsline {paragraph}{Coordination Level}{21}{section*.80}
-\contentsline {paragraph}{Challenges}{21}{section*.81}
-\contentsline {subsection}{\numberline {3.4.2}Traditional Approaches}{22}{subsection.82}
-\contentsline {subsection}{\numberline {3.4.3}Newly Developed}{22}{subsection.83}
-\contentsline {chapter}{\numberline {4}Research Objective}{23}{chapter.84}
-\contentsline {section}{\numberline {4.1}Anticipated Contribution}{23}{section.85}
-\contentsline {subsection}{\numberline {4.1.1}Subsection 1}{23}{subsection.86}
-\contentsline {subsection}{\numberline {4.1.2}Subsection 2}{23}{subsection.87}
-\contentsline {section}{\numberline {4.2}Research Plan}{23}{section.88}
-\contentsline {subsection}{\numberline {4.2.1}Framework for Experiments in Simulation}{23}{subsection.89}
-\contentsline {subsection}{\numberline {4.2.2}Framework for Experiments in Real World}{24}{subsection.90}
-\contentsline {subsection}{\numberline {4.2.3}Perception and Planning Algorithm}{24}{subsection.91}
-\contentsline {section}{\numberline {4.3}Methodology and Elaboration}{24}{section.92}
-\contentsline {section}{\numberline {4.4}Solutions}{25}{section.93}
-\contentsline {section}{\numberline {4.5}Schedule of Thesis Writing and Proposed Date of Defense}{25}{section.94}
-\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{27}{appendix.95}
-\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{27}{section.96}
-\contentsline {chapter}{Bibliography}{29}{appendix*.97}
+\contentsline {section}{\numberline {3.4}Autonomous Navigation Systems of Small Quadcopter UAVs}{21}{section.74}
+\contentsline {subsection}{\numberline {3.4.1}Autonomy}{21}{subsection.75}
+\contentsline {subsection}{\numberline {3.4.2}Hierarchical Control Architecture of a Fully Autonomous UAV}{21}{subsection.76}
+\contentsline {paragraph}{Organization Level}{22}{section*.77}
+\contentsline {paragraph}{Coordination Level}{22}{section*.78}
+\contentsline {subsection}{\numberline {3.4.3}Autonomous Navigation Systems for Small Quadcopters}{22}{subsection.79}
+\contentsline {paragraph}{Classical System Architecture}{22}{section*.80}
+\contentsline {paragraph}{Camera Based System Architecture For Reactive Flight Control Pipeline}{22}{section*.81}
+\contentsline {paragraph}{System Architecture For Fully End-to-End LIDAR Based Reactive Flight Control Pipeline}{22}{section*.82}
+\contentsline {paragraph}{LIDAR to Actions System Architecture}{22}{section*.83}
+\contentsline {paragraph}{Challenges}{22}{section*.84}
+\contentsline {subsection}{\numberline {3.4.4}Traditional Approaches}{23}{subsection.85}
+\contentsline {subsection}{\numberline {3.4.5}Newly Developed}{23}{subsection.86}
+\contentsline {chapter}{\numberline {4}Research Objective}{25}{chapter.87}
+\contentsline {section}{\numberline {4.1}Anticipated Contribution}{25}{section.88}
+\contentsline {subsection}{\numberline {4.1.1}Subsection 1}{25}{subsection.89}
+\contentsline {subsection}{\numberline {4.1.2}Subsection 2}{25}{subsection.90}
+\contentsline {section}{\numberline {4.2}Research Plan}{25}{section.91}
+\contentsline {subsection}{\numberline {4.2.1}Framework for Experiments in Simulation}{25}{subsection.92}
+\contentsline {subsection}{\numberline {4.2.2}Framework for Experiments in Real World}{26}{subsection.93}
+\contentsline {subsection}{\numberline {4.2.3}Perception and Planning Algorithm}{26}{subsection.94}
+\contentsline {section}{\numberline {4.3}Methodology and Elaboration}{26}{section.95}
+\contentsline {section}{\numberline {4.4}Solutions}{27}{section.96}
+\contentsline {section}{\numberline {4.5}Schedule of Thesis Writing and Proposed Date of Defense}{27}{section.97}
+\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{29}{appendix.98}
+\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{29}{section.99}
+\contentsline {chapter}{Bibliography}{31}{appendix*.100}
