@@ -33,13 +33,14 @@ integration of
 UAV technologies
 into public life.
 
+This chapter ...
+
 
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 
 \section{Unmanned Aerial Vehicles}
-
 An unmanned aerial vehicle (UAV),
 often referred to as drone, is an
 aircraft without a human pilot onboard.
@@ -52,31 +53,30 @@ Combined with one or more
 ground control stations (GCS),
 one or more UAVs form an
 unmanned aerial systems (UAS).
-\cite{Fahlstrom2012}
-
 While the quadcopter is the best-known representative,
 various different types of UAVs exist
 which are classified by means of
 different criteria, i.e.
-airframe type, airframe size, flight level, flight range and usage.
-
+airframe type and technical specifications.
+\cite{Fahlstrom2012}
 
 \subsection{Classification by Airframe Type}
-The airframe type and particular configuration
+Airframe type and particular configuration
 of an UAV
 have big impact on its
-capabilities in
+capabilities to navigate in
 various applications 
-and environments. \cite{Kong2010}
-Three main categories
-of airframe types exists -
+and environments.
+\cite{Kong2010}
+Austin introduces three main categories
+of airframe types, i.e.
 horizontal take-off and landing (HTOL),
 vertical take-off and landing (VTOL)
 and hybrids.
-%https://s3.amazonaws.com/academia.edu.documents/32160055/Unmanned_Air_Systems_UAV_Design__Development_and_Deployment.pdf?response-content-disposition=inline%3B%20filename%3Dfor_UAV_design_and_operation.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20190910%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190910T014051Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=21449b6e7e8260c2e71e5593e49acfda353cbc2e66d60e046c0469be451f14f4
+\cite{Austin2011}
 
-\paragraph{HTOL}
-HTOLs are foremost represented by airplanes
+\textbf{HTOLs}
+are foremost represented by airplanes
 which are composed of fixed wings
 and a propulsion unit.
 When moving forward, the wings
@@ -88,28 +88,24 @@ They also have stabilizing effects
 on the aircraft.
 Control surfaces on the wings
 enable navigation.
-%https://s3.amazonaws.com/academia.edu.documents/32160055/Unmanned_Air_Systems_UAV_Design__Development_and_Deployment.pdf?response-content-disposition=inline%3B%20filename%3Dfor_UAV_design_and_operation.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20190910%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190910T014051Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=21449b6e7e8260c2e71e5593e49acfda353cbc2e66d60e046c0469be451f14f4
 HTOL is
 the most aerodynamically efficient airframe configuration
 and therefore, suitable for missions
 with high speed as well as
 long flight range and time.
-\textbf{BSP MISSION}
 Since lift generation depends on forward motion,
 a HTOL cannot maintain position and
 its launching and landing 
-require either a runway or
-acceleration by human hand or catapults and nets.
-\textbf{QUELLE}
+require infrastructure, either a runway or
+a launch and recovery system.
 Thus, HTOLs cannot be deployed
 on missions
 which require hovering and lack
-launching and landing infrastructure, e.g.
-business-to-customer delivery.
-\textbf{QUELLE}.
+launching and landing infrastructure.
+%, e.g. business-to-customer delivery.
 
-\paragraph{VTOLs}
-VTOLs are foremost represented by
+\textbf{VTOLs}
+are foremost represented by
 copters wich are composed of a single or multiple rotors.
 A Copter generates lift by rotating its rotor(s)
 and accelerating air downwards.
@@ -126,23 +122,95 @@ In case of a multicopter,
 the torques counter themselves
 due to the fact that individual rotors
 are arranged in opposite directions of rotation.
-Depending on configuration, 
+Depending on particular aircraft design, 
 navigation is achieved by
 adjusting either rotational speed 
 or tilt of constituent rotors
 in order to
 generate differential thrusts and torques.
-
 At the prize of lower flight speed, range and time,
 VTOLs are suitable in situations which
 require hovering as well as launching and landing on small areas 
-without previously built infrastructure.
+without previously installed infrastructure.
+
+\textbf{Hybrid Systems}
+combine benefits of HTOLs and VTOLs,
+i.e. the ability of vertical take off and landing
+as well as the speed for 
+long range flights.
+which is usally realized by
+either 90 degree tilting rotors or
+an array of jets mounted on 
+the fixed wings and fuselage of a HTOL.
+
+\subsection{Classification by Technical Specifications}
+Official authorities 
+published various classification systems for UAVs
+with respect to technical specifications,
+e.g. weight, altitude, speed, range, etc.
+in the military realm,
+e.g. US. Department of Defense %https://web.archive.org/web/20160121155841/http://www.acq.osd.mil/sts/docs/DoD_UAS_Airspace_Integ_Plan_v2_(signed).pdf
+)
+as well as in the civil realm,
+e.g. 
+%https://chinapower.csis.org/china-drones-unmanned-technology/
+%https://www.hlmediacomms.com/2016/01/21/china-launches-first-operational-rules-for-civil-unmanned-aircraft/
+.
+For scientific usage,
+Watts, Ambrosia and Hinkley classify UAVs
+by airframe size and weight, flight altitude and flight endurance. \cite{Watts2012}
+into the classes
+micro (MAV) and nano air vehicles (NAV),
+VTOL (Vertical Take-Off and Landing),
+LASE (Low Altitude, Short-Endurance) or sUAS, small unmanned aircraft systems
+LASE Close
+LALE (Low Altitude, Long Endurance):
+MALE (Medium Altitude, Long Endurance)
+HALE (High Altitude, Long Endurance)
+
+
+\begin{table}
+    \caption{Classification of UAVs in the civil realm by Watts, Ambrosia and Hinkley. \cite{Watts2012}}
+    \label{tab:CivilRealmClassificationUAV}
+    \centering
+    \begin{tabular}{r l l l}
+    \toprule
+    \tabhead{Class} & \tabhead{Airframe Size} & \tabhead{Aircraft Weight} & \tabhead{Flight Level} & \tabhead{Flight Endurance} & \tabhead{Communication Range} & \tabhead{Infrastructure} \\
+    \midrule
+    MAV/NAV & Backpack & - & < 330 m & 5 - 30 min & - & No\\
+    VTOL & - & - & - & - & - & No\\
+    LASE/sUAS & wingspan < 3 m & 2 - 5 kg & - & 1 - 2 h & few km & Human Hand / Catapult System \\
+    LASE Close & > LASE & > LASE & < 1500 m & multiple hours & Runway\\
+    LALE & - & - & few thousand meters & extended period & - & Runway\\
+    MALE & - & - & < 9000 m & Many hours & hundreds of km & Runway
+    HALE & larger than many general-aviation manned aircraft & & 20,000 m & < 30 h & thousands of km 
+
+    \bottomrule\\
+    \end{tabular}
+\end{table}
+
+
+
+
+
+
+UAVs are not only classified by airframe type
+but also by airframe size, flight level, flight range and usage
+which is shortly outlined here. \cite{Austin2011}
+
+Informal size classes are
+very small UAVs (length of largest dimension maxmimum 50 cm),
+small UAVS (50 cm - 2 m),
+medium UAVs (too large to be carried by one person, smaller than a light aircraft)
+and large UAVs largerthan a typical light manned aircraft 
+
+
+\subsection{Small Quadcopter UAV}
 
 Multicopters, in turn, are classified by the number
 of rotors and their arrangement, e.g. a "quadcopter +" has four rotors
 arranged along a symmetric plus sign.
 %https://s3.amazonaws.com/academia.edu.documents/32160055/Unmanned_Air_Systems_UAV_Design__Development_and_Deployment.pdf?response-content-disposition=inline%3B%20filename%3Dfor_UAV_design_and_operation.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20190910%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190910T014051Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=21449b6e7e8260c2e71e5593e49acfda353cbc2e66d60e046c0469be451f14f4
-
 
 The quadcopter is one of the most popular types of
 UAV airframe configurations and is also utilized
@@ -151,7 +219,6 @@ research should be reproducible for various configurations
 of copters since the low-level control
 of autopilots is excluded and flight behaviour
 does not essentially differentiate.
-
 
 For multicopters,
 electronic complexity in form of multiple motors,
@@ -170,61 +237,6 @@ have been established.
 
 
 
-\paragraph{Hybrid Systems}
-combine benefits of HTOLs and VTOLs,
-i.e. the ability of vertical take off and landing
-as well as the speed for 
-long range flights.
-which is usally realized by
-either 90 degree tilting rotors or
-an array of jets mounted on 
-the fixed wings and fuselage of a HTOL.
-%https://s3.amazonaws.com/academia.edu.documents/32160055/Unmanned_Air_Systems_UAV_Design__Development_and_Deployment.pdf?response-content-disposition=inline%3B%20filename%3Dfor_UAV_design_and_operation.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20190910%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190910T014051Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=21449b6e7e8260c2e71e5593e49acfda353cbc2e66d60e046c0469be451f14f4
-
-
-
-\subsection{Dynamics and Control}
-
-During flight, an UAV is an unstable system
-and requires continual control.
-Traditionally, this control is
-engineered on multiple control levels.
-\textbf{QUELLE}
-(except some end-to-end learning control methods).
-While on a lower control level,
-an onboard autopilot is 
-permanently maintaining attitude and altitude of the UAV
-in order to prevent 
-collisions and keep up maneuverability,
-on a higher level, different actors 
-can navigate the drone and perform maneuvers.
-Either a human pilot steers the UAV remotely from
-the GCS per radio transmitter (RC)
-thereby, relying on direct visual contact to the vehicle 
-or on video stream from an onboard camera,
-or an onboard computer constantly executes 
-algorithms to track trajectories
-thereby, relying on sensor data.
-While traditional navigation approaches,
-such as VIO or SLAM
-evaluate sensor data received from
-GPS, radio, inertial, SLAM, VIO
-to estimate the pose of the UAV,
-new approaches basing
-on camera or LIDAR data utilize perception concepts
-of machine learning.
-These computer tracked trajectories 
-are either static,
-as part of a
-precomputed mission or 
-adaptive to dynamic environments
-in sense of autonomous flight.
-
-
-\subsection{Autonomous Flight}
-
-Ability to avoid obstacles
-static and dynamic???
 
 
 
@@ -281,10 +293,10 @@ and requires reliable wireless communication for control.>
 
 \section{Civil Applications of Multicopters}
 
-UAV technologies have historic origin
+UAV technology has historic origin
 in military
 affairs from the 1930's.
-They had been mostly confined to them
+They had been mostly confined to military use
 until around the year of 2000,
 when along with
 rapid performance improvements,
@@ -915,6 +927,55 @@ the research of this work are classified.
 
 
 
+
+
+\subsection{Dynamics and Control}
+
+During flight, an UAV is an unstable system
+and requires continual control.
+Traditionally, this control is
+engineered on multiple control levels.
+\textbf{QUELLE}
+(except some end-to-end learning control methods).
+While on a lower control level,
+an onboard autopilot is 
+permanently maintaining attitude and altitude of the UAV
+in order to prevent 
+collisions and keep up maneuverability,
+on a higher level, different actors 
+can navigate the drone and perform maneuvers.
+Either a human pilot steers the UAV remotely from
+the GCS per radio transmitter (RC)
+thereby, relying on direct visual contact to the vehicle 
+or on video stream from an onboard camera,
+or an onboard computer constantly executes 
+algorithms to track trajectories
+thereby, relying on sensor data.
+While traditional navigation approaches,
+such as VIO or SLAM
+evaluate sensor data received from
+GPS, radio, inertial, SLAM, VIO
+to estimate the pose of the UAV,
+new approaches basing
+on camera or LIDAR data utilize perception concepts
+of machine learning.
+These computer tracked trajectories 
+are either static,
+as part of a
+precomputed mission or 
+adaptive to dynamic environments
+in sense of autonomous flight.
+
+
+\subsection{Autonomous Flight}
+
+Ability to avoid obstacles
+static and dynamic???
+
+
+
+
+
 \subsection{Autonomy}
 The concept of autonomy extends
 automation 
@@ -928,13 +989,13 @@ it is unable to
 cope with unexpected situations
 since it is engineered to rely on limited
 parameters, variations and disturbances.
-In contrast,
+In addition to an automated system,
 an autonomous system, 
 due to a deeper based perception,
-is additionally capable of anticapating upcoming events,
+is capable of anticapating upcoming events,
 making decisions and reacting properly - like humans.
 It can perform previously unknown tasks
-in totally unknown, dynamically changing environments,
+in previously unknown, dynamically changing environments,
 deal with uncertainty and learn from its failures.
 The design of an autonomous system
 requires the composition of
@@ -946,8 +1007,8 @@ communication theory,
 computer science (in particular artificial intelligence)
 and
 operations research.
-With machines making decisions,
-new questions concerning
+Furthermore, with machines making decisions,
+questions of other fields concerning
 ethics,
 responsibility,
 legality

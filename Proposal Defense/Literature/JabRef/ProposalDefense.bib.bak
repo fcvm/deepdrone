@@ -46,4 +46,39 @@
   url       = {https://www.ebook.de/de/product/19222078/fahlstrom_thomas_gleason_introduction_to_uav_systems_4e.html},
 }
 
+@Misc{,
+  author       = {Mark Sheehan},
+  title        = {The Current State of Drone Delivery Worldwide},
+  howpublished = {https://mydroneauthority.com/industry/drone-delivery/},
+  month        = aug,
+  year         = {2019},
+  note         = {Last time checked: 2019/09/09},
+}
+
+@Article{Ross2018,
+  author    = {Philip E. Ross},
+  title     = {Iceland{\textquotesingle}s consumers try drone delivery: The startup Aha takes on Amazon with basic drones bearing burgers - [News]},
+  journal   = {{IEEE} Spectrum},
+  year      = {2018},
+  volume    = {55},
+  number    = {10},
+  pages     = {12--13},
+  month     = {oct},
+  doi       = {10.1109/mspec.2018.8482412},
+  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+}
+
+@Article{Kong2010,
+  author    = {Zhaodan Kong and Bernie Mettler},
+  title     = {Evaluation of Guidance Performance in Urban Terrains for Different {UAV} Types and Performance Criteria Using Spatial {CTG} Maps},
+  journal   = {Journal of Intelligent {\&} Robotic Systems},
+  year      = {2010},
+  volume    = {61},
+  number    = {1-4},
+  pages     = {135--156},
+  month     = {oct},
+  doi       = {10.1007/s10846-010-9485-9},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
