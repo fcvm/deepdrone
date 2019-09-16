@@ -1,0 +1,27 @@
+﻿Virtually Reality CAD Program for Engineers and Education
+.
+Bürogebäude Scheibenwischer Drohnen
+
+Brieftauben-Drohnen
+
+Navigation einer Drohne wie Mensch: GPS wie auf Karte schauen, danach Weg merken anhand was man sieht, ständig auf Umgebung reagieren.
+Orientierung an Fahrbahnmarkierungen
+Identify
+ if obstacle is static (SLAM applyable) or dynamic (ML)
+
+Train 2 drones interaction passing with hard coded trajectory
+
+Wild animal tracking,
+ sun collectors,
+resting in trees
+
+hike path checking
+
+climbing assistent
+
+Simulation of drag effect
+
+RF-learning needs to experience crash, hybrid learning in real world, with simulated crashs
+
+Whistleling alarm system if drone crashes
+reinforcement learning small animals for children.

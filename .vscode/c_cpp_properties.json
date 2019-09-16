@@ -1,22 +1,27 @@
 {
-  "configurations": [
-    {
-      "browse": {
-        "databaseFilename": "",
-        "limitSymbolsToIncludedHeaders": true
-      },
-      "includePath": [
-        "/home/anjin/catkin_ws/devel/include",
-        "/opt/ros/melodic/include",
-        "/home/anjin/catkin_ws/src/deepdrone/img2traj/include",
-        "/home/anjin/catkin_ws/src/mavros/libmavconn/include",
-        "/home/anjin/catkin_ws/src/mavros/mavros/include",
-        "/home/anjin/catkin_ws/src/mavros/mavros_msgs/include",
-        "/home/anjin/catkin_ws/src/deepdrone/offb/include",
-        "/home/anjin/catkin_ws/src/mavros/test_mavros/include",
-        "/usr/include"
-      ],
-      "name": "Linux"
-    }
-  ]
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/anjin/catkin_ws/devel/include",
+                "/opt/ros/melodic/include",
+                "/home/anjin/catkin_ws/src/deepdrone/img2traj/include",
+                "/home/anjin/catkin_ws/src/mavros/libmavconn/include",
+                "/home/anjin/catkin_ws/src/mavros/mavros/include",
+                "/home/anjin/catkin_ws/src/mavros/mavros_msgs/include",
+                "/home/anjin/catkin_ws/src/deepdrone/offb/include",
+                "/home/anjin/catkin_ws/src/mavros/test_mavros/include",
+                "/usr/include"
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
 }

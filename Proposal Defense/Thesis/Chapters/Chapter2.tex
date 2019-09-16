@@ -1,0 +1,1196 @@
+% Chapter Template
+
+\chapter{Literature Review} % Main chapter title
+
+\label{Chapter2} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+For the last few years
+numerous, newly developed
+UAV technologies have been
+successfully applied in 
+industry and
+projects of public interest.
+Meanwhile, 
+major companies and
+research centers across the globe
+are researching on further UAV based solutions.
+Employing the benefits of machine learning, 
+new approaches for autonomous navigation
+that outperform traditional approaches 
+have been published.
+Still, the robustness
+of autonomous systems 
+is not sufficient to
+safely deploy them in many, desired
+areas of application. 
+Increasing the level of autonomy and
+improving robustness,
+e.g. enable UAVs to safely operate in 
+dynamic environments like urban areas,
+is thus, most significant
+for further 
+integration of
+UAV technologies
+into public life.
+
+This chapter ...
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{Unmanned Aerial Vehicles}
+An unmanned aerial vehicle (UAV),
+often referred to as drone, is an
+aircraft without a human pilot onboard.
+Core components of an UAV are an airframe,
+an autopilot, onboard sensors and 
+data link. A companion computer
+and other optional components,
+can be mounted onboard.
+Combined with one or more
+ground control stations (GCS),
+one or more UAVs form an
+unmanned aerial systems (UAS).
+While the quadcopter is the best-known representative,
+various different types of UAVs exist
+which are classified by means of
+different criteria, i.e.
+airframe type and technical specifications.
+\cite{Fahlstrom2012}
+
+\subsection{Classification by Airframe Type}
+Airframe type and particular configuration
+of an UAV
+have big impact on its
+capabilities to navigate in
+various applications 
+and environments.
+\cite{Kong2010}
+Austin introduces three main categories
+of airframe types, i.e.
+horizontal take-off and landing (HTOL),
+vertical take-off and landing (VTOL)
+and hybrids.
+\cite{Austin2011}
+
+\textbf{HTOLs}
+are foremost represented by airplanes
+which are composed of fixed wings
+and a propulsion unit.
+When moving forward, the wings
+generate lift 
+by accelerating horizontally incoming
+air downwards and compensating
+gravitational force.
+They also have stabilizing effects
+on the aircraft.
+Control surfaces on the wings
+enable navigation.
+HTOL is
+the most aerodynamically efficient airframe configuration
+and therefore, suitable for missions
+with high speed as well as
+long flight range and time.
+Since lift generation depends on forward motion,
+a HTOL cannot maintain position and
+its launching and landing 
+require infrastructure, either a runway or
+a launch and recovery system.
+Thus, HTOLs cannot be deployed
+on missions
+which require hovering and lack
+launching and landing infrastructure.
+%, e.g. business-to-customer delivery.
+
+\textbf{VTOLs}
+are foremost represented by
+copters wich are composed of a single or multiple rotors.
+A Copter generates lift by rotating its rotor(s)
+and accelerating air downwards.
+Since the air is drawn in from above the rotor(s),
+a copter is able to hover as well as launch and land vertically.
+Besides vertical force,
+a running rotor induces also torque
+on the aircraft.
+In case of a helicopter (single rotor copter),
+an additional, small tail rotor
+cancels the torque of the main rotor and 
+stabilizes the yaw of the aircraft.
+In case of a multicopter,
+the torques counter themselves
+due to the fact that individual rotors
+are arranged in opposite directions of rotation.
+Depending on particular aircraft design, 
+navigation is achieved by
+adjusting either rotational speed 
+or tilt of constituent rotors
+in order to
+generate differential thrusts and torques.
+At the prize of lower flight speed, range and time,
+VTOLs are suitable in situations which
+require hovering as well as launching and landing on small areas 
+without previously installed infrastructure.
+
+\textbf{Hybrid Systems}
+combine benefits of HTOLs and VTOLs,
+i.e. the ability of vertical take off and landing
+as well as the speed for 
+long range flights.
+which is usally realized by
+either 90 degree tilting rotors or
+an array of jets mounted on 
+the fixed wings and fuselage of a HTOL.
+
+\subsection{Classification by Technical Specifications}
+Official authorities 
+published various classification systems for UAVs
+with respect to technical specifications,
+e.g. weight, altitude, speed, range, etc.
+in the military realm,
+e.g. US. Department of Defense %https://web.archive.org/web/20160121155841/http://www.acq.osd.mil/sts/docs/DoD_UAS_Airspace_Integ_Plan_v2_(signed).pdf
+)
+as well as in the civil realm,
+e.g. 
+%https://chinapower.csis.org/china-drones-unmanned-technology/
+%https://www.hlmediacomms.com/2016/01/21/china-launches-first-operational-rules-for-civil-unmanned-aircraft/
+.
+For scientific usage,
+Watts, Ambrosia and Hinkley classify UAVs
+by airframe size and weight, flight altitude and flight endurance. \cite{Watts2012}
+into the classes
+micro (MAV) and nano air vehicles (NAV),
+VTOL (Vertical Take-Off and Landing),
+LASE (Low Altitude, Short-Endurance) or sUAS, small unmanned aircraft systems
+LASE Close
+LALE (Low Altitude, Long Endurance):
+MALE (Medium Altitude, Long Endurance)
+HALE (High Altitude, Long Endurance)
+
+
+\begin{table}
+    \caption{Classification of UAVs in the civil realm by Watts, Ambrosia and Hinkley. \cite{Watts2012}}
+    \label{tab:CivilRealmClassificationUAV}
+    \centering
+    \begin{tabular}{r l l l}
+    \toprule
+    \tabhead{Class} & \tabhead{Airframe Size} & \tabhead{Aircraft Weight} & \tabhead{Flight Level} & \tabhead{Flight Endurance} & \tabhead{Communication Range} & \tabhead{Infrastructure} \\
+    \midrule
+    MAV/NAV & Backpack & - & < 330 m & 5 - 30 min & - & No\\
+    VTOL & - & - & - & - & - & No\\
+    LASE/sUAS & wingspan < 3 m & 2 - 5 kg & - & 1 - 2 h & few km & Human Hand / Catapult System \\
+    LASE Close & > LASE & > LASE & < 1500 m & multiple hours & Runway\\
+    LALE & - & - & few thousand meters & extended period & - & Runway\\
+    MALE & - & - & < 9000 m & Many hours & hundreds of km & Runway
+    HALE & larger than many general-aviation manned aircraft & & 20,000 m & < 30 h & thousands of km 
+
+    \bottomrule\\
+    \end{tabular}
+\end{table}
+
+
+
+
+
+
+UAVs are not only classified by airframe type
+but also by airframe size, flight level, flight range and usage
+which is shortly outlined here. \cite{Austin2011}
+
+Informal size classes are
+very small UAVs (length of largest dimension maxmimum 50 cm),
+small UAVS (50 cm - 2 m),
+medium UAVs (too large to be carried by one person, smaller than a light aircraft)
+and large UAVs largerthan a typical light manned aircraft 
+
+
+\subsection{Small Quadcopter UAV}
+
+Multicopters, in turn, are classified by the number
+of rotors and their arrangement, e.g. a "quadcopter +" has four rotors
+arranged along a symmetric plus sign.
+%https://s3.amazonaws.com/academia.edu.documents/32160055/Unmanned_Air_Systems_UAV_Design__Development_and_Deployment.pdf?response-content-disposition=inline%3B%20filename%3Dfor_UAV_design_and_operation.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20190910%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190910T014051Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=21449b6e7e8260c2e71e5593e49acfda353cbc2e66d60e046c0469be451f14f4
+
+The quadcopter is one of the most popular types of
+UAV airframe configurations and is also utilized
+in this work. However, the insights of this
+research should be reproducible for various configurations
+of copters since the low-level control
+of autopilots is excluded and flight behaviour
+does not essentially differentiate.
+
+For multicopters,
+electronic complexity in form of multiple motors,
+speed controllers and a power distribution board
+as well as an autopilot,
+which computes individual motor speeds in order to
+stabilize the aircraft and follow navigation inputs,
+replace the mechanical complexity of
+helicopters. 
+However, due to extensive cost decrease
+and performance increases from the year of 2000 on,
+huge markets and broad research on UAVs, exspecially multicopters,
+have been established.
+%https://dspace.mit.edu/bitstream/handle/1721.1/121319/Garcia_Santoso_2019.pdf?sequence=1&isAllowed=y
+
+
+
+
+
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2
+%----------------------------------------------------------------------------------------
+
+\section{Navigation of an Autonomous Quadcopter}
+
+HERE
+
+%-----------------------------------
+%	SUBSECTION 1
+%-----------------------------------
+\subsection{Low-level control by Autopilot}
+
+HERE
+
+%-----------------------------------
+%	SUBSECTION 2
+%-----------------------------------
+\subsection{High-level control}
+
+<
+They can be controlled by onboard electronic equipments 
+or via control equipment from the ground. 
+When it is remotely controlled from ground 
+it is called RPV (Remotely Piloted Vehicle) 
+and requires reliable wireless communication for control. 
+Dedicated control systems may be devoted to large UAVs, 
+and can be mounted aboard vehicles or in trailers 
+to enable close proximity to UAVs that are 
+limited by range or communication capabilities.
+>
+
+
+\paragraph{Human Pilot}
+<When it is remotely controlled from ground 
+it is called RPV (Remotely Piloted Vehicle) 
+and requires reliable wireless communication for control.>
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 3
+%----------------------------------------------------------------------------------------
+
+\section{Civil Applications of Multicopters}
+
+UAV technology has historic origin
+in military
+affairs from the 1930's.
+They had been mostly confined to military use
+until around the year of 2000,
+when along with
+rapid performance improvements,
+costs of electronic components
+have been essentially decreasing 
+which made UAV technologies 
+accessible for the wider public.
+A huge UAV market for private customers
+has been established. Many UAV manufacturing
+companies have been founded which today,
+operate in this worldwide business.
+
+% DJI:
+% https://www.chinadaily.com.cn/a/201909/05/WS5d706266a310cf3e35569d21.html
+
+OPEN SOurce Projecte
+
+They have been producing
+numerous innovative
+UAV designs, concepts and algorithms
+which in turn around
+the year of 2015, opened the door
+to industry applications
+and projects of public interest
+for UAV technologies.
+%https://dspace.mit.edu/bitstream/handle/1721.1/121319/Garcia_Santoso_2019.pdf?sequence=1&isAllowed=y#cite.IWM
+
+This section introduces these
+fields of applications in order
+to demonstrate the value to society
+that UAV technology has already achieved.
+Moreover, the potential of UAV technology
+in future applications is discussed,
+as well as factors that limits the 
+breakthrough into daily life
+and the research to eliminate these factors.
+Thereby, the focus is on 
+business-to-customer (B2C) UAV delivery
+which is one of the most relevant future applications
+for UAV technology and whose prosperous 
+established relies foremost 
+on the realization of robust,
+autonomous flight in dynamic environments -
+a topic this work should contribute.
+
+
+UAVs are exspecially useful on missions
+which are either characterized 
+as dangerous, 
+i.e. "human pilot operations would be at a disadvantage or at high risk"
+\cite{Watts2012}
+or as inefficient
+human pilot.
+surveillance - 
+cost efficient data gathering together with big data and cloud computing.
+
+
+
+
+\subsection{People Transport}
+
+
+\subsection{Freight Traffic}
+
+\subsection{Agriculture}
+
+According to PwC, one of the largest professional services firms,
+%https://www.technologyreview.com/s/601935/six-ways-drones-are-revolutionizing-agriculture/
+broader application of UAV technologies in agriculture 
+is partial solution to satisfy 
+increasing agricultural consumption
+in light of the predicted growth of world's population
+over the next decades.
+In this sense, JD.com,
+the second biggest Chinese online retailer
+and pioneer in UAV and smart technology,
+launched the initiative,
+"JD Smart Agriculture Development Community"
+with the aim to
+"increase the efficiency of China’s agriculture industry" and
+"raise the overall level of food safety and quality".
+With the help of 
+JD-X, JD.com’s logistics innovation lab,
+UAV technology is deployed for
+crop protection, i.e. to 
+"monitor and analyze water, soil, pesticides, fertilizer, weather, diseases and pests".
+%https://jdcorporateblog.com/jd-cultivates-new-smart-agriculture-push-in-china/
+
+
+
+
+Currently, UAVs operate in
+the fields of
+soil and field analysis,
+planting,
+crop spraying,
+crop monitoring,
+
+
+
+
+<
+1. Soil and field analysis: 
+Drones can be instrumental at the start of the crop cycle. 
+They produce precise 3-D maps for early soil analysis, 
+useful in planning seed planting patterns. 
+After planting, drone-driven soil analysis provides data for 
+irrigation and nitrogen-level management.
+
+2. Planting: 
+Startups have created drone-planting systems 
+that achieve an uptake rate of 75 percent and 
+decrease planting costs by 85 percent. 
+These systems shoot pods with seeds and 
+plant nutrients into the soil, 
+providing the plant all the nutrients 
+necessary to sustain life.
+
+3. Crop spraying: 
+Distance-measuring equipment—
+ultrasonic echoing and 
+lasers such as those used in the light-detection and ranging, 
+or LiDAR, method—
+enables a drone to adjust altitude 
+as the topography and geography vary, and 
+thus avoid collisions. 
+Consequently, drones can scan the ground and 
+spray the correct amount of liquid, 
+modulating distance from the ground and 
+spraying in real time for even coverage. 
+The result: increased efficiency 
+with a reduction of in the amount of chemicals 
+penetrating into groundwater. 
+In fact, experts estimate that aerial spraying 
+can be completed up to five times faster with drones 
+than with traditional machinery.
+
+4. Crop monitoring: 
+Vast fields and low efficiency in crop monitoring together 
+create farming’s largest obstacle. 
+Monitoring challenges are exacerbated 
+by increasingly unpredictable weather conditions, 
+which drive risk and field maintenance costs. 
+Previously, satellite imagery offered the most advanced form of monitoring. 
+But there were drawbacks. 
+Images had to be ordered in advance, 
+could be taken only once a day, 
+and were imprecise. 
+Further, services were extremely costly and 
+the images’ quality typically suffered on certain days. 
+Today, time-series animations 
+can show the precise development of a crop and 
+reveal production inefficiencies, 
+enabling better crop management.
+
+5. Irrigation: 
+Drones with hyperspectral, multispectral, or thermal sensors 
+can identify which parts of a field are dry or need improvements. 
+Additionally, once the crop is growing, 
+drones allow the calculation of the vegetation index, 
+which describes the relative density and health of the crop, 
+and show the heat signature, the amount of energy or heat the crop emits.
+
+6. Health assessment: 
+It’s essential to assess crop health and 
+spot bacterial or fungal infections on trees. 
+By scanning a crop using both visible and near-infrared light, 
+drone-carried devices can identify 
+which plants reflect different amounts of green light and NIR light. 
+This information can produce multispectral images 
+that track changes in plants and indicate their health. 
+A speedy response can save an entire orchard. 
+In addition, as soon as a sickness is discovered, 
+farmers can apply and monitor remedies more precisely. 
+These two possibilities increase a plant’s ability to overcome disease. 
+And in the case of crop failure, 
+the farmer will be able to document losses more efficiently for insurance claims.
+>
+
+
+%https://jdcorporateblog.com/jd-cultivates-new-smart-agriculture-push-in-china/
+%https://www.pcworld.com/article/3190720/drone-software-gives-offline-farmers-real-time-images.html
+%https://www.chinadaily.com.cn/a/201907/25/WS5d39c7c8a310d83056401097.html
+%https://africa.chinadaily.com.cn/a/201902/25/WS5c732fb4a3106c65c34eb180.html
+%https://www.pwc.pl/en/drone-powered-solutions/Articles/Drones-to-pollinate-flowers.html
+
+\subsection{Healthcare}
+
+%https://onlinelibrary.wiley.com/doi/pdf/10.1111/trf.15195
+%https://flyzipline.com/impact/
+%http://en.people.cn/n3/2019/0410/c90000-9565324.html
+
+
+\subsection{Environmental Protection}
+%https://www.chinadaily.com.cn/a/201909/04/WS5d6f1680a310cf3e3556999d.html
+%https://www.chinadaily.com.cn/a/201907/12/WS5d27dc46a3105895c2e7d0f6.html
+%https://www.pwc.pl/en/drone-powered-solutions/Articles/surfers-enjoying-the-charms-of-australian-beaches-will-be-protected-from-sharks-by-drones.html
+%https://www.pwc.pl/en/drone-powered-solutions/Articles/Drone-technologies-help-communities-in-Poland-deal-with-the-impact-of-storms.html
+%https://www.pwc.pl/en/drone-powered-solutions/Articles/2018/drone-environment-inspections-in-china.html
+%https://www.pwc.pl/en/drone-powered-solutions/Articles/Intelligent-drones-will-save-wildlife-in-Africa.html
+%https://www.pwc.pl/en/drone-powered-solutions/Articles/how-qut-drones-will-save-koalas.html
+%https://www.pwc.pl/en/drone-powered-solutions/Articles/drones-as-tornado-chasers1.html
+
+\subsection{Delivery service} \cite{Watts2012}
+%https://mydroneauthority.com/industry/drone-delivery/
+
+
+\paragraph{Introduction}
+tests are being conducted, 
+what big companies and startups are doing, \
+and where it is possible to see the technology in action.
+
+
+For a few years the idea of 
+delivery drones transporting parcels, food and other goods
+directly to customers
+has manifested in several pioeneer applications. 
+Researchers are working hard on this hot topic
+which will reduce delivery time,
+costs.
+
+\paragraph{Potential}
+Drone delivery technologies have big potential
+of improvements in various aspects.
+
+From economic considerations,
+drone delivery is a better solution to the "last mile problem"
+which refers to the high costs occurring during the last, inefficient step of supply chains.
+On short distances from a transportation hub to final destinations,
+drones can be faster while consuming less fuel. Costs related
+to traditional delivery on the "last mile" such as
+<labor costs for human drivers> and <fleet maintenance of commercial vehicles>
+are omitted.
+https://www.statista.com/statistics/816884/last-mile-delivery-logistics-providers-challenges/
+
+In the field of healthcare,
+drones show promise to speed up emergency response
+where the time from incident to first measure is 
+most critical and 
+congestion might be fatal.
+Hastening the supply of emergency medicine,
+donated blood and portable medical devices as well as
+enabeling paramedics to instruct helpers on site from a far distance
+is life saving in case of misfortunes like 
+heart attacks, strokes and external injuries.
+
+Because drones are electrically powered, they provide benefits
+with respect to climate protection if batteries
+are recharged with renewable resources. Moreover,
+the operation of drones is emmision-free and thus,
+an answer to the air pollution problems
+which occurs in metropoles across the globe [QUELLEN Deutschland, China, Indien, USA].
+
+<overcoming delivery problems to remote areas>
+
+
+\paragraph{Applications}
+
+The concept of commercial drone delivery started in 2013
+when Amazon announced their initiative "Amazon Prime Air" of developing drone systems for 
+parcel delivery.
+%https://www.nytimes.com/2016/08/11/technology/think-amazons-drone-delivery-idea-is-a-gimmick-think-again.html
+%https://www.amazon.com/b?node=8037720011
+%https://www.youtube.com/watch?v=98BIu9dpwHU
+%https://smallbiztrends.com/2013/12/amazon-drones-prime-air-delivery-30-minutes.html
+
+Within less than a week, UPS reacted on the new competitor in its core business with
+announcing their own plans of drone delivery.
+%https://www.youtube.com/watch?v=xx9_6OyjJrQ
+%https://smallbiztrends.com/2013/12/ups-delivery-drones.html 
+
+Trapped by regulations
+
+FAA rules currently prohibit drone flights 
+that are entirely autonomous or 
+beyond the line of sight of human operators. 
+7-Eleven has managed to work within those regulations
+by using its delivery service as a means to advance research 
+toward integrating drones into the National Airspace System, 
+while also helping further refine Flirtey’s delivery technology.
+
+
+
+Nevertheless, in the shadow of these gigantic players,
+in July 2015 Flirtey, an Australian start-up, performed the first
+federally-approved commercial drone flight in the U.S.
+%https://www.youtube.com/watch?v=xEm7bI_meQY
+%https://smallbiztrends.com/2015/07/first-drone-delivery-flirtey.html
+%https://www.flirtey.com/
+
+Thereupon in July 2016, Flirtey in corporation with 
+the convenience store chain 7-Eleven 
+performed the first "store-to-door" drone deliveries to private customers
+in the US with an autonomously flying drone relying on precision GPS.
+%https://www.youtube.com/watch?v=7amSm_Yh7DY
+%https://www.prnewswire.com/news-releases/flirtey-and-7-eleven-complete-first-month-of-routine-commercial-drone-deliveries-deliver-77-packages-to-customer-homes-in-united-states-300381798.html
+
+In December 2016, Amazon caught up with its first drone delivery
+in the UK. 
+<drone flights that are entirely autonomous or beyond the line of sight of human operators,
+The UK and several other countries have taken more pro-innovation regulatory positions
+Amazon chose the country with a regulatory climate that is more conducive to proper UAV testing and subsequent application
+>
+%https://www.youtube.com/watch?v=vNySOrI2Ny8
+%https://www.amazon.com/b?node=8037720011
+%https://smallbiztrends.com/2016/12/faa-drone-regulations.html
+
+In August 2017, the icelandic start-up Aha in corporation with Israeli logistics system Flytrex 
+started a project to fly drones 
+manufactured by the biggest Chinese drone company DJI
+on preprogrammed missions to deliver consumer goods to customers' houses
+in Rejkjavik the capital of Iceland. 
+Iceland previously opened its regulations for this project.
+\cite{Ross2018}
+
+
+October 2016 Zipline
+
+
+With its huge population (1.4 billion people in 2018)
+eCommerce Report
+and broad social acceptance towards digital innovations
+-in comparison 39\% of US American citizens
+are sceptical towards drone delivery
+https://www.statista.com/chart/5843/level-of-trust-in-drone-delivery-services/-,
+China surpassed the United States of America in 2013 and
+became the biggest eCommerce market worldwide with
+a total revenue of approximately 633.9 billion USD in 2018
+leaving the US on second place with 501.0 billion USD and 
+the European Union on third place with 358.1 billion USD.
+eCommerce Report
+https://www.techinasia.com/2013-china-surpasses-america-to-become-worlds-top-ecommerce-market
+https://www.statista.com/study/42335/ecommerce-report/
+
+The growth of eCommerce has
+strong impact on the logistics market
+demanding innovative and efficient approaches
+for fast and reliable door step parcel delivery shipment
+even in remote areas with little infrastructure.
+
+
+
+ 
+logistic companies.
+The China-based companies DJI, ... are among the biggest drone developers and producers
+and came up with highly engineered, innovative drone systems.
+For individuals as well as in corporation with the
+dominating shipment companies JD, SF Express, in China.
+
+Several China-based companies 
+are testing drone delivery supported by
+innovative drone comanies such as DJI.
+
+
+https://www.scmp.com/tech/innovation/article/2129585/jdcoms-autonomous-delivery-vehicles-will-take-streets-tianjin-june
+After the approval by the China Civil Aviation Administration
+<build tens of thousands UAV landing platforms or drone pods across China>
+JD.com extended its drone projects
+with own UAV, unmanned ground vehicles, and unmanned warehouses
+within its JDX Department for intelligent logistics.
+https://technode.com/2018/02/05/e-commerce-giant-jd-will-build-tens-of-thousands-delivery-drone-landing-pods/
+https://jdcorporateblog.com/jd-com-announces-series-of-new-agreements-for-drone-development/
+https://jdcorporateblog.com/jd-com-to-build-largest-drone-logistics-network-and-rd-campus-in-china/
+
+
+While the logistics subsidiary of JD.com
+which is the second biggest business to customer (B2C) eCommerce company
+in China after Tmall of the Alibaba Group
+%https://www.statista.com/statistics/959881/china-gmv-share-of-online-retail-b2c-market-by-platform/
+was opening its first UAV distribution center in Haikou, the capital of Hainan in 2018,
+the first company that received a license for drone delivery services
+by responsible Chinese administration was Jiangxi Fengyu Shuntu Technology Company.
+%https://technode.com/2018/03/28/first-licence-for-drone-deliveries-in-china-goes-to-sf-express/
+%http://www.xinhuanet.com/finance/2018-03/28/c_1122600619.htm
+The company is an affiliated company of SF Express 
+which is one of the biggest delivery service companies in China 
+%https://www.statista.com/statistics/244034/leading-logistics-companies-in-china-by-revenue/
+An airborne supply chain consisting of nationwidely operating planes,
+locally distributing larger drones and customer delivering smaller drones
+should foremost increase the coverage of delivery and
+the delivery time in rural areas.
+%https://technode.com/2018/03/28/first-licence-for-drone-deliveries-in-china-goes-to-sf-express/
+
+<
+Its first drone took off on 26 March on its way to the company’s first Hainan delivery (in Chinese). Hainan is an island off the southern coast of the mainland and is highly mountainous and so a suitable testing ground for the format. JD has ambitions to be able to deliver anywhere in the country within 24 hours.>
+%http://tech.sina.com.cn/i/2018-03-26/doc-ifysqfnh0749009.shtml
+%https://jdcorporateblog.com/jd-com-launches-new-institute-for-smart-logistics-in-urban-areas-2/
+
+
+
+International
+Corporation with Rakuten in Japan
+%https://jdcorporateblog.com/jd-com-and-rakuten-to-collaborate-on-unmanned-delivery-solutions-in-japan/
+Indonesia
+%https://jdcorporateblog.com/gallery/jd-com-launches-first-government-approved-drone-flight-in-indonesia-2/
+
+
+
+
+JD.com
+Alibaba
+<This Chinese company is pursuing a massive and rapid expansion of a commercial drone delivery system in the four most-populated provinces in China. The drones fly from centralized warehouses to locally-designated landing pads. More than 300,000 local delivery operators then take the packages to the nearby homes. This company has small commercial drones that can fly up to 62 mph (100 kph) and carry up to 66 lbs. (30 kg). It also has a very large commercial drone that can carry up to one metric ton (2,200 lbs.). >
+DHL
+In December of 2013, DHL started delivering medicines using drones in Germany. 
+
+Alibaba 
+In February 2015, Alibaba partnered with the courier company Shanghai YTO Express to deliver tea by commercial drones to 450 customers in certain Chinese cities. 
+
+Alphabet (Google) 
+
+Google has many ongoing drone programs and tests underway including Alphabet X, which partnered with Chipotle Mexican Grill to deliver food to the cafeterias on the Virginia Tech Campus. Since 2014, Alphabet X has been testing drone delivery service ins Australia to deliver both consumer items and much heavier things such as building materials. Project Wing delivers medicines and burritos in rural areas. 
+
+
+
+
+
+\paragraph{Limiting factors}
+The breakthrough of drone delivery
+has not been taken place yet due to several
+limiting factors.
+
+In contrast to the previously mentioned
+environment-friendly abilities,
+current, typical drone models emit a buzzing noize.
+Thus, an extensive application of drone delivery,
+would lead to new, dominant source of noise pollution 
+which affects the quality of life in urban areas.
+
+
+
+Safety Concerns - include damage and injury caused by 
+accidents, 
+flyaways, 
+privacy issues, 
+security, and 
+package interference from stealing or vandalism. 
+
+Due to little experience of drones
+participating in daily traffic,
+consequences of traffic accidents caused
+by drones are difficult to predict. 
+There have not been recorded any fatal commercial drone crash until now
+%(https://www.researchgate.net/publication/291697791_A_Technocritical_Review_of_Drones_Crash_Risk_Probabilistic_Consequences_and_its_Societal_Acceptance),
+???and the risk of autonomous flight is estimated very low ?????
+%(https://www.researchgate.net/publication/27467796_A_Casualty_Risk_Analysis_For_Unmanned_Aerial_System_UAS_Operations_Over_Inhabited_Areas) 
+but a lot of near-accidents and injuries are reported
+%(https://www.techrepublic.com/article/12-drone-disasters-that-show-why-the-faa-hates-drones/)
+%https://eu.usatoday.com/story/news/nation/2014/09/03/charges-brought-in-drone-crashes/15041623/
+%https://www.cnet.com/news/this-hawk-has-no-love-for-your-drone/
+%https://www.pcmag.com/news/351016/video-drone-crashes-into-seattles-space-needle
+%https://medium.com/@obox/the-world-thinks-i-faked-a-drone-crashing-into-my-office-window-and-head-10a732d62e74
+%https://www.cbsnews.com/news/decision-announced-on-charges-in-white-house-drone-incident/
+.
+Not least because of the uncontrolled nature of drone crashes,
+the deploy of drone technologies in daily life is seen critically by
+local administrations and
+is legally restricted by local laws of the states.
+??autonomous and human pilot.??
+To give a few examples, 
+in the United States of America, 
+law forbids the navigation of drones above other persons Quelle!!!(December 2018) 
+In cities, drone delivery would be only legally possible on air corridors for drones
+and would lose its advantage of not being bound to existing infrastructure
+and thus, could be affected by congestion and circuitous routes.
+Moreover, according to the Federal Aviation Administration (FAA) in the United States,
+out-of-sight drone navigation with a virtual reality headset needs a special permission
+which further limits drone delivery in not fully visible delivery areas like cities.
+autonomous???
+
+Privacy is another concern when it comes to drone navigation
+and led to legal restriction.
+Drone systems are equipped with different sensors,
+visual, range, can look through walls etc.
+and would enter spheres which until now have not been
+reached by them. A single drone can look through windows at high levels
+or see what happens behind a tall fence. A whole fleet of
+delivery drones can profile entire societies if their data
+is combined and evaluated with methods of artificial intelligence.
+%https://www.pwc.pl/en/drone-powered-solutions/Articles/Can-drones-see-through-walls.html
+
+By law, unauthorizedly overflying restricted areas of critical infrastructure 
+such as nuclear power plants
+%https://www.researchgate.net/publication/291697791_A_Technocritical_Review_of_Drones_Crash_Risk_Probabilistic_Consequences_and_its_Societal_Acceptance
+and military bases is forbidden.
+Losing control of drones in case of navigation failure or hacker attack
+can be punished by heavy fines or even imprisonment.
+
+Another concern is the security of delivered items
+which decisively affects the consumers to accept this new way of delivery.
+%https://www.emarketer.com/Article/How-Do-Consumers-Feel-About-Drones-Delivering-Their-Packages/1014138
+Finding convenient solutions to criminal actions such as the downing of drones 
+or the stealth of delivered parcels as well as 
+technical questions, e.g. protection of the parcel against rain and outer forces
+as well as a robust approach of handing it over, are crucial here.
+
+
+<Realistically, however, implementation could take three to five years, and that’s just to get FAA approval. There may be other problems, too, in densely populated cities like Washington D.C. where no-fly zones are currently in place.
+
+Brendan Schulman, special counsel at Kramer Levin Naftalis and Frankel LLP told the Associated Press:
+
+    The technology has moved forward faster than the law has kept pace.>
+%https://smallbiztrends.com/2013/12/amazon-drones-prime-air-delivery-30-minutes.html
+
+
+\paragraph{Current Research}
+Current research on Future Solutions
+
+noise pollution problem, 
+Edgar Herrera, developed a blade-less drone. 
+It flies in complete silence. 
+The drone is not yet in production; 
+however, the design is spectacular. 
+Solar-powered, silent-flying, drone delivery is a really great idea that takes this whole concept to the next level.
+In the future, there may be overly-active, 
+drone-flying corridors that are constantly buzzing. 
+%https://www.google.com/search?client=ubuntu&channel=fs&q=bladless+drone+no+noize&ie=utf-8&oe=utf-8
+
+
+Legal restrictions with more robust technology.
+<Using drones equipped with emergency parachutes, 
+which automatically deploy for power losses, 
+can help reduce crash damage and injuries. 
+There are plenty of opportunities for entrepreneurs to improve drone-flying safety. >
+
+
+<Drones equipped with video surveillance technology can reduce these criminal risks; however, these cameras cause privacy and security issues to arise. This is an area of opportunity, where entrepreneurs can focus on providing solutions. >
+
+-----
+
+
+already capable of being deployed for many types of delivery services 
+such as pizzas in urban environments and 
+desperately-needed medicine flown by drones to remote inaccessible villages.
+%https://spectrum.ieee.org/robotics/drones/in-the-air-with-ziplines-medical-delivery-drones
+
+
+already plenty of opportunities 
+flying unmanned aerial vehicles (UAVs) for fun 
+and for professional uses. %https://mydroneauthority.com/reviews/best-professional-drones/
+
+
+%https://europe.chinadaily.com.cn/a/201905/16/WS5cdd33e3a3104842260bc192.html
+
+%-----------------------------------
+%	SUBSECTION 1
+%-----------------------------------
+\subsection{Current Development}
+
+%http://en.people.cn/n3/2019/0818/c98649-9606973.html
+
+
+%-----------------------------------
+%	SUBSECTION 1
+%-----------------------------------
+\subsection{Entertainment}
+
+%http://www.chinadaily.com.cn/m/jiangsu/wuxi/2019-08/28/content_37506351.htm
+
+%-----------------------------------
+%	SUBSECTION 1
+%-----------------------------------
+\subsection{Power and Utilities Industry}
+
+%https://www.pwc.pl/en/drone-powered-solutions/Articles/Drone-Powered-Solutions-for-Power-Utilities-Sector-New-Report-by-PwC-DPS.html
+
+%-----------------------------------
+%	SUBSECTION 1
+%-----------------------------------
+\subsection{Passenger Transport}
+
+%https://www.pwc.pl/en/drone-powered-solutions/Articles/self-flying-taxi-in-dubai.html
+
+
+%-----------------------------------
+%	SUBSECTION 1
+%-----------------------------------
+\subsection{Cellular Connectivity}
+
+%https://www.pwc.pl/en/drone-powered-solutions/Articles/2018/drone-as-emergency-ad-hoc-networks.html
+
+
+%-----------------------------------
+%	SUBSECTION 1
+%-----------------------------------
+\subsection{Civil Engineering}
+
+%https://www.pwc.pl/en/drone-powered-solutions/Articles/drones-inspections-over-hard-to-reach-infrastructure.html
+
+
+<rescue,   exploration,  environment  monitoring,  map  construction  or  search>
+%https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8494201
+
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 4
+%----------------------------------------------------------------------------------------
+
+\section{Autonomous Navigation Systems of Small Quadcopter UAVs}
+
+For legal classification and restriction,
+the International Civil Aviation Organization (ICAO)
+devides UAVs into either fully remotely controlled 
+or fully autonomous.
+%https://www.icao.int/Meetings/UAS/Documents/Circular%20328_en.pdf
+From technical perspective,
+autonomy is not a static
+but a fluent feature of an UAV
+and thus, more precisely referred to as
+degree of autonomy. For example,
+even a remotely piloted vehicle (RPV)
+usually involves an autopilot
+which supports the human pilot
+during flight by autonomously
+performing tasks, e.g. maintaining pose.
+%and translation of higher order navigation tasks
+%to individual lower level motor commands.
+This section recaps a general
+concept of autonomy as well as
+a hierarchical control architecture for a
+fully autonomous UAV in order to
+subsequently introduce
+autonomous navigation systems of UAVs.
+Traditional and newly developed methods
+related to autonomous navigation
+as well as 
+the research of this work are classified.
+
+
+
+
+
+\subsection{Dynamics and Control}
+
+During flight, an UAV is an unstable system
+and requires continual control.
+Traditionally, this control is
+engineered on multiple control levels.
+\textbf{QUELLE}
+(except some end-to-end learning control methods).
+While on a lower control level,
+an onboard autopilot is 
+permanently maintaining attitude and altitude of the UAV
+in order to prevent 
+collisions and keep up maneuverability,
+on a higher level, different actors 
+can navigate the drone and perform maneuvers.
+Either a human pilot steers the UAV remotely from
+the GCS per radio transmitter (RC)
+thereby, relying on direct visual contact to the vehicle 
+or on video stream from an onboard camera,
+or an onboard computer constantly executes 
+algorithms to track trajectories
+thereby, relying on sensor data.
+While traditional navigation approaches,
+such as VIO or SLAM
+evaluate sensor data received from
+GPS, radio, inertial, SLAM, VIO
+to estimate the pose of the UAV,
+new approaches basing
+on camera or LIDAR data utilize perception concepts
+of machine learning.
+These computer tracked trajectories 
+are either static,
+as part of a
+precomputed mission or 
+adaptive to dynamic environments
+in sense of autonomous flight.
+
+
+\subsection{Autonomous Flight}
+
+Ability to avoid obstacles
+static and dynamic???
+
+
+
+
+
+\subsection{Autonomy}
+The concept of autonomy extends
+automation 
+onto unexpected situations. 
+Automation replaces human action
+to complete well known tasks in well known, structured environments.
+While an automated system outperforms humans
+with respect to 
+precision, speed and costs,
+it is unable to
+cope with unexpected situations
+since it is engineered to rely on limited
+parameters, variations and disturbances.
+In addition to an automated system,
+an autonomous system, 
+due to a deeper based perception,
+is capable of anticapating upcoming events,
+making decisions and reacting properly - like humans.
+It can perform previously unknown tasks
+in previously unknown, dynamically changing environments,
+deal with uncertainty and learn from its failures.
+The design of an autonomous system
+requires the composition of
+various methods from 
+control theory,
+system identification, 
+system estimation,
+communication theory,
+computer science (in particular artificial intelligence)
+and
+operations research.
+Furthermore, with machines making decisions,
+questions of other fields concerning
+ethics,
+responsibility,
+legality
+arise.
+
+
+\subsection{Hierarchical Control Architecture of a Fully Autonomous UAV}
+
+In contrast to RPV...
+
+Involving the concept of 
+increasing precision with decreasing intelligence (IPDI),
+control architectures of autonomous systems for UAVs 
+can be functionally layered
+into three control levels, i.e.
+organization, coordination, and execution
+as well as a supervisor level
+to enable human intervention.
+
+Downstream, from higher to lower levels,
+commands are distributed and
+system parameters are modified.
+
+Upstream, from lower to higher level,
+command responses and sensor data
+%e.g. status, health information, 
+are passed.
+
+Information may also be exchanged within the same level.
+
+The higher the control level,
+the longer the interval of planning and execution time.
+
+
+
+All three levels have access to
+information about 
+environment and state estimates of the UAV.
+
+The least intelligent \textbf{execution level}
+interfaces with sensors and actuators
+of the UAV. While receiving sensor data about
+the state of the UAV and the environment,
+this level runs conventional  control  algorithms 
+on inner-loop and sends low level control
+commands directly to the actuators of the UAV.
+
+
+
+(These algortightms very good researched)
+
+
+
+
+It  senses  the  responses  of  the  vehicle  and  environment,    
+processes    them    to    identify    parameters,    
+estimates   states,   or   detects   failures,   
+and   passes   this   information to the higher levels.
+
+
+\paragraph{Organization Level}
+
+highest   intelligent    and    lowest    precision
+involves    intelligent,    decision-making  methods,  
+situation  evaluation  and  mission  management. 
+
+
+
+
+\paragraph{Coordination Level}
+
+The  middle  level
+interface between the actions of the other  two  levels  
+combination  of  conventional  and   intelligent   decision   making   methods.   
+outer-loop
+
+middle-loop  to  generate  the  trajectory,  guidance  and  other  signals
+
+
+
+
+%https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5375937
+
+
+\subsection{Autonomous Navigation Systems for Small Quadcopters}
+Flight Control Pipeline
+
+
+\paragraph{Classical System Architecture}
+Env - Sensor - State (Velocity) Estimation                              - Velocity Controller - Flight Controller - Motors
+             - obstacle detection - local planner - position controller -
+
+
+\paragraph{Camera Based System Architecture For Reactive Flight Control Pipeline}
+
+\paragraph{System Architecture For Fully End-to-End LIDAR Based Reactive Flight Control
+Pipeline}
+
+
+\paragraph{LIDAR to Actions System Architecture}
+
+QUELLE SAMZENG
+
+In case of a small UAV,
+one major point is to
+guarantee that the algorithms
+can be executed in real time
+since onboard hardware is constrained
+by small payloads.
+
+
+
+\paragraph{Challenges}
+
+
+
+
+
+<
+There  has  been  many  significant  research  in  making  UAV  fly  autonomously,  but  obstacle  avoidance  is  still  a  crucial   hurdle.   For   small   quadrotor   UAV,   due   to   the   limitation  of  payloads  it  is  infeasible  to  carry  sophisticated  radar  sensors.  Though  many  advanced  research  has  used  light  detection  and  ranging(LiDAR)  [1]  or  the  cameras  of  Microsoft Kinect [2], both sensors are heavy, which will lead to  increase  the  power  consumption  and  drastically  decrease  the flight time.
+>
+SOURCE 
+
+<
+Autonomous flight is in contrast to other
+control methods, i.e. radio remote and preprogrammed.
+    communication  link  is  not  expedited  or  reliable
+    doesn’t  update  mission  when  plans  or  treat  situations  are  changed
+    rapidly  changing  uncertain  environment the present techniques are inadequat
+
+perform  well  under  significant  uncertainties  inthe  system  and  environment for extended periods of time
+compensate  for  system  failures  without  external  intervention
+
+techniques  from  the  field  of  Artificial  Intelligence  (AI)  
+    evolve  from  conventional  control  systems  by  adding  intelligent  components,  and  their  development requires interdisciplinary research [3]. 
+
+Autonomous  controllers  have  the  power  and  ability  for  self  governance  in  the  performance  of  control  functions.
+high  degree   of   automation   is   applied   in   a   very   unstructured   environment
+“Automation”  here  refers  to  the  absence  of  human   intervention,
+“unstructured   environment”   is   associated with uncertainty
+
+integrates concepts and methods from areas such as Control, Identification,   Estimation,   and   Communication   Theory,   Computer   Science,   especially   Artificial   Intelligence,   and   Operations  Research  (OR).  
+The   synthesis   of   high   performance   controllers  for  the  solution  of  difficult  control  problems  is  what autonomous control is really all about.  
+
+>
+%https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5375937
+
+%-----------------------------------
+%	SUBSECTION 1
+%-----------------------------------
+\subsection{Traditional Approaches}
+
+HERE
+
+%-----------------------------------
+%	SUBSECTION 2
+%-----------------------------------
+
+\subsection{Newly Developed}
+HERE
+
+
+Due to the inherent instability of the system, constant control commands must be applied to
+prevent a collision. In the event the robot enters an environment where \textbf{accurate state estimation}
+is computationally impossible due to lack of features, we still want the system to do its best given
+available information to prevent immediate collision.
+
+
+
+
+
+
+
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 5
+%----------------------------------------------------------------------------------------
+
+\section{Drone Racing}
+
