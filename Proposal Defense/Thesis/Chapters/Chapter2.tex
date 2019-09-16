@@ -1,8 +1,6 @@
-% Chapter Template
+\chapter{Literature Review}
 
-\chapter{Literature Review} % Main chapter title
-
-\label{Chapter2} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+\label{Chapter2} % For referencing this chapter elsewhere, use \ref{Chapter2}
 
 For the last few years
 numerous, newly developed
@@ -37,31 +35,77 @@ This chapter ...
 
 
 %----------------------------------------------------------------------------------------
-%	SECTION 1
+%	SECTION 1 - UNMANNED AERIAL VEHICLE
 %----------------------------------------------------------------------------------------
 
-\section{Unmanned Aerial Vehicles}
+\section{Unmanned Aerial Vehicle}
+
+\label{Chapter2Section1}
+
+\textit{This section provides a definition 
+for the term of an unmanned aerial vehicle (UAV)
+and introduces common classification approaches
+in order to subsequently integrate the
+quadcopter MAV 
+which I am going to deploy 
+within the research of my master thesis.}
+
+
 An unmanned aerial vehicle (UAV),
 often referred to as drone, is an
 aircraft without a human pilot onboard.
 Core components of an UAV are an airframe,
 an autopilot, onboard sensors and 
-data link. A companion computer
-and other optional components,
+data link. 
+While the airframe constitutes the mechanical structure,
+the autopilot is the fundamental control unit of an UAV.
+It translates higher control commands,
+e.g., to track a trajectory,
+into individual motor commands
+and autonomously performs basic navigation tasks,
+e.g., to stabilize the aircraft or to maintain the pose,
+as support to a human pilot or as part of a preprogrammed mission
+or of an fully autonomous control structure.
+Onboard sensors such as
+an inertial measurement unit (IMU), 
+a satellite-based navigation sensor,
+a video camera
+or a light detection and ranging (LIDAR) sensor, 
+supply the autopilot and optionally
+existing, superior control units,
+with the necessary data input.
+Data link enables the UAV to
+exchange digital information.
+Optional components of an UAV,
+e.g., a companion computer
+for increased computational power,
 can be mounted onboard.
-Combined with one or more
+One or more UAVs,
+combined with one or more
 ground control stations (GCS),
-one or more UAVs form an
-unmanned aerial systems (UAS).
+form an unmanned aerial system (UAS).
+At the GCS, data from the UAV
+is processed and the UAV 
+is either steered by human pilot or
+instructed to fly a preprogrammed mission or autonomously.
 While the quadcopter is the best-known representative,
 various different types of UAVs exist
 which are classified by means of
-different criteria, i.e.
-airframe type and technical specifications.
+different criteria, 
+i.e., airframe type and key characteristics.
 \cite{Fahlstrom2012}
+However, a universal, international classifying system
+does not exist.
+
+
+% subsection 1 - Classification by Airframe Type
 
 \subsection{Classification by Airframe Type}
-Airframe type and particular configuration
+
+\label{Chapter2Section1Sub1}
+
+Airframe type and 
+the particular configuration
 of an UAV
 have big impact on its
 capabilities to navigate in
@@ -74,19 +118,17 @@ horizontal take-off and landing (HTOL),
 vertical take-off and landing (VTOL)
 and hybrids.
 \cite{Austin2011}
-
 \textbf{HTOLs}
 are foremost represented by airplanes
 which are composed of fixed wings
 and a propulsion unit.
 When moving forward, the wings
-generate lift 
+generate lift that compensates gravitational force
 by accelerating horizontally incoming
-air downwards and compensating
-gravitational force.
-They also have stabilizing effects
-on the aircraft.
-Control surfaces on the wings
+air downwards.
+The wings also have stabilizing effects
+on the aircraft and hold
+control surfaces that
 enable navigation.
 HTOL is
 the most aerodynamically efficient airframe configuration
@@ -99,15 +141,14 @@ its launching and landing
 require infrastructure, either a runway or
 a launch and recovery system.
 Thus, HTOLs cannot be deployed
-on missions
-which require hovering and lack
-launching and landing infrastructure.
-%, e.g. business-to-customer delivery.
-
+on missions which entail
+hovering or lack
+launching and landing infrastructure,
+e.g., business-to-customer (B2C) delivery in densely populated areas.
 \textbf{VTOLs}
 are foremost represented by
 copters wich are composed of a single or multiple rotors.
-A Copter generates lift by rotating its rotor(s)
+A copter generates lift by rotating its rotor(s)
 and accelerating air downwards.
 Since the air is drawn in from above the rotor(s),
 a copter is able to hover as well as launch and land vertically.
@@ -132,95 +173,83 @@ At the prize of lower flight speed, range and time,
 VTOLs are suitable in situations which
 require hovering as well as launching and landing on small areas 
 without previously installed infrastructure.
-
 \textbf{Hybrid Systems}
 combine benefits of HTOLs and VTOLs,
-i.e. the ability of vertical take off and landing
-as well as the speed for 
-long range flights.
-which is usally realized by
+i.e., the ability of vertical take off and landing
+as well as the speed necessary for 
+long range and high altitude flights.
+This is usally realized by
 either 90 degree tilting rotors or
-an array of jets mounted on 
+an array of 90 degree tilting jets mounted on 
 the fixed wings and fuselage of a HTOL.
 
-\subsection{Classification by Technical Specifications}
+\subsection{Classification by Key Characteristics}
 Official authorities 
 published various classification systems for UAVs
-with respect to technical specifications,
-e.g. weight, altitude, speed, range, etc.
-in the military realm,
-e.g. US. Department of Defense %https://web.archive.org/web/20160121155841/http://www.acq.osd.mil/sts/docs/DoD_UAS_Airspace_Integ_Plan_v2_(signed).pdf
-)
-as well as in the civil realm,
-e.g. 
-%https://chinapower.csis.org/china-drones-unmanned-technology/
-%https://www.hlmediacomms.com/2016/01/21/china-launches-first-operational-rules-for-civil-unmanned-aircraft/
-.
-For scientific usage,
-Watts, Ambrosia and Hinkley classify UAVs
-by airframe size and weight, flight altitude and flight endurance. \cite{Watts2012}
-into the classes
-micro (MAV) and nano air vehicles (NAV),
-VTOL (Vertical Take-Off and Landing),
-LASE (Low Altitude, Short-Endurance) or sUAS, small unmanned aircraft systems
-LASE Close
-LALE (Low Altitude, Long Endurance):
-MALE (Medium Altitude, Long Endurance)
-HALE (High Altitude, Long Endurance)
-
+with respect to technical specifications
+and key characteristics.
+Most of the classification
+systems come from 
+the military sector,
+e.g., the five UAS groups based on
+maximum gross takeoff weight, normal operating altitude
+and airspeed published by the United States Department of Defense
+\cite{USDOD2011}.
+But there also exists
+classification for the civil realm,
+e.g., 
+the seven classes based on empty weight, take-off weight
+and usage published by the Civil Aviation Administration of China
+\cite{Wei2016}. 
+Watts, Ambrosia and Hinkley\cite{Watts2012} propose a classification
+for civil, scientific usage.
+Mentionable UAV classes of their
+classification are
+micro air vehicles (MAV),
+low altitude, short endurance (LASE),
+low altitude, long endurance (LALE),
+medium altitude, long endurance (MALE)
+and high altitude, long endurance (HALE).
+For their key characteristics,
+see table \ref{tab:CivilRealmClassificationUAV}.
 
 \begin{table}
     \caption{Classification of UAVs in the civil realm by Watts, Ambrosia and Hinkley. \cite{Watts2012}}
     \label{tab:CivilRealmClassificationUAV}
     \centering
-    \begin{tabular}{r l l l}
+    \begin{tabular}{r l l l l}
     \toprule
-    \tabhead{Class} & \tabhead{Airframe Size} & \tabhead{Aircraft Weight} & \tabhead{Flight Level} & \tabhead{Flight Endurance} & \tabhead{Communication Range} & \tabhead{Infrastructure} \\
+    \tabhead{Class} & \tabhead{Altitude} & \tabhead{Endurance} & \tabhead{Range} & \tabhead{Takeoff / Landing} \\
     \midrule
-    MAV/NAV & Backpack & - & < 330 m & 5 - 30 min & - & No\\
-    VTOL & - & - & - & - & - & No\\
-    LASE/sUAS & wingspan < 3 m & 2 - 5 kg & - & 1 - 2 h & few km & Human Hand / Catapult System \\
-    LASE Close & > LASE & > LASE & < 1500 m & multiple hours & Runway\\
-    LALE & - & - & few thousand meters & extended period & - & Runway\\
-    MALE & - & - & < 9000 m & Many hours & hundreds of km & Runway
-    HALE & larger than many general-aviation manned aircraft & & 20,000 m & < 30 h & thousands of km 
-
+    MAV     & < 330 m       & < 30 min  & < 1 km        & Any small area \\
+    LASE    & < 450 m       & < 2 h     & < 10 km       & Human hand, catapult system or runway \\
+    LALE    & < 5,000 m     & < 20 h    & < 100 km      & Runway \\
+    MALE    & < 9,000 m     & < 40 h    & < 1,000 km    & Runway \\
+    HALE    & < 25,000 m    & < 30 h    & < 10,000 km   & Runway \\
     \bottomrule\\
     \end{tabular}
 \end{table}
 
 
+\subsection{The Quadcopter MAV for my Research}
+
+For the research within my master thesis,
+I have two quadcopter MAVs at hand
+which differ only in the fact that
+one of them has an additional companion
+computer.
+
+FOTO
 
 
-
-
-UAVs are not only classified by airframe type
-but also by airframe size, flight level, flight range and usage
-which is shortly outlined here. \cite{Austin2011}
-
-Informal size classes are
-very small UAVs (length of largest dimension maxmimum 50 cm),
-small UAVS (50 cm - 2 m),
-medium UAVs (too large to be carried by one person, smaller than a light aircraft)
-and large UAVs largerthan a typical light manned aircraft 
-
-
-\subsection{Small Quadcopter UAV}
-
-Multicopters, in turn, are classified by the number
-of rotors and their arrangement, e.g. a "quadcopter +" has four rotors
-arranged along a symmetric plus sign.
+%Multicopters, in turn, are classified by the number
+%of rotors and their arrangement, e.g. a "quadcopter +" has four rotors
+%arranged along a symmetric plus sign.
 %https://s3.amazonaws.com/academia.edu.documents/32160055/Unmanned_Air_Systems_UAV_Design__Development_and_Deployment.pdf?response-content-disposition=inline%3B%20filename%3Dfor_UAV_design_and_operation.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20190910%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190910T014051Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=21449b6e7e8260c2e71e5593e49acfda353cbc2e66d60e046c0469be451f14f4
 
-The quadcopter is one of the most popular types of
-UAV airframe configurations and is also utilized
-in this work. However, the insights of this
-research should be reproducible for various configurations
-of copters since the low-level control
-of autopilots is excluded and flight behaviour
-does not essentially differentiate.
-
-For multicopters,
+The quadcopter configuration is the most common
+airframe for UAVs in the civil realm. 
+For all multicopters,
 electronic complexity in form of multiple motors,
 speed controllers and a power distribution board
 as well as an autopilot,
@@ -233,6 +262,19 @@ and performance increases from the year of 2000 on,
 huge markets and broad research on UAVs, exspecially multicopters,
 have been established.
 %https://dspace.mit.edu/bitstream/handle/1721.1/121319/Garcia_Santoso_2019.pdf?sequence=1&isAllowed=y
+
+
+
+However, the insights of my master thesis
+will be reproducible for other configurations
+of multicopters because my research
+takes place on a higher level of navigation control.
+and low level control of individual motors is excluded.
+Thus, common autopilots can
+cancel the differences between the various
+configurations of multicopters and can ensure
+an essentially similar flight behaviour.
+
 
 
 
@@ -356,7 +398,7 @@ cost efficient data gathering together with big data and cloud computing.
 
 
 
-\subsection{People Transport}
+\subsection{Passenger Transport}
 
 
 \subsection{Freight Traffic}
@@ -804,6 +846,8 @@ Brendan Schulman, special counsel at Kramer Levin Naftalis and Frankel LLP told 
 \paragraph{Current Research}
 Current research on Future Solutions
 
+%http://en.people.cn/n3/2019/0818/c98649-9606973.html
+
 noise pollution problem, 
 Edgar Herrera, developed a blade-less drone. 
 It flies in complete silence. 
@@ -840,12 +884,6 @@ and for professional uses. %https://mydroneauthority.com/reviews/best-profession
 
 %https://europe.chinadaily.com.cn/a/201905/16/WS5cdd33e3a3104842260bc192.html
 
-%-----------------------------------
-%	SUBSECTION 1
-%-----------------------------------
-\subsection{Current Development}
-
-%http://en.people.cn/n3/2019/0818/c98649-9606973.html
 
 
 %-----------------------------------
