@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.14)  16 SEP 2019 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.14)  17 SEP 2019 17:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/main.tex"
+**"/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/main"
 (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/main.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
-(/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/MastersDoctoralThesis.cls
+(./MastersDoctoralThesis.cls
 Document Class: MastersDoctoralThesis 2017/08/27 v1.6 LaTeXTemplates.com
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
@@ -1281,7 +1281,7 @@ LaTeX Info: Redefining \pageref on input line 6369.
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
-(scrhack)             need that hack, on input line 90.
+(scrhack)             need that hack, on input line 91.
 
 
 Package hyperref Message: Driver (autodetected): hpdftex.
@@ -1296,16 +1296,16 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip69
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 90.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 90.
-Package hyperref Info: Option `colorlinks' set `true' on input line 90.
-Package hyperref Info: Option `unicode' set `true' on input line 90.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 91.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 91.
+Package hyperref Info: Option `colorlinks' set `true' on input line 91.
+Package hyperref Info: Option `unicode' set `true' on input line 91.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 90.
+Package hyperref Info: Option `breaklinks' set `true' on input line 91.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1313,26 +1313,26 @@ File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/main.aux (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter0.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter1.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter2.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter3.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Appendices/AppendixA.aux))
+ (./main.aux (./Chapters/Chapter0.aux) (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Appendices/AppendixA.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 90.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 91.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
@@ -1477,13 +1477,13 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 90.
-Package scrbase Info: activating english \abbrevname on input line 90.
-Package scrbase Info: activating english \byname on input line 90.
-Package scrbase Info: activating english \acknowledgementname on input line 90.
-Package scrbase Info: activating english \authorshipname on input line 90.
-Package scrbase Info: activating english \constantsname on input line 90.
-Package scrbase Info: activating english \symbolsname on input line 90.
+(scrlayer)             \begin{document} on input line 91.
+Package scrbase Info: activating english \abbrevname on input line 91.
+Package scrbase Info: activating english \byname on input line 91.
+Package scrbase Info: activating english \acknowledgementname on input line 91.
+Package scrbase Info: activating english \authorshipname on input line 91.
+Package scrbase Info: activating english \constantsname on input line 91.
+Package scrbase Info: activating english \symbolsname on input line 91.
 \big@size=\dimen187
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -1496,11 +1496,11 @@ Package biblatex Warning: Data encoding is 'utf8'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
-(/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/main.bbl)
-Package biblatex Info: Reference section=0 on input line 90.
-Package biblatex Info: Reference segment=0 on input line 90.
+(./main.bbl)
+Package biblatex Info: Reference section=0 on input line 91.
+Package biblatex Info: Reference segment=0 on input line 91.
 \AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring ON on input line 90.
+Package hyperref Info: Link coloring ON on input line 91.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1508,31 +1508,31 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count351
 )
-LaTeX Info: Redefining \ref on input line 90.
-LaTeX Info: Redefining \pageref on input line 90.
-LaTeX Info: Redefining \nameref on input line 90.
- (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/main.out) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/main.out)
+LaTeX Info: Redefining \ref on input line 91.
+LaTeX Info: Redefining \pageref on input line 91.
+LaTeX Info: Redefining \nameref on input line 91.
+ (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 \c__siunitx_mathsf_int=\count352
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 90.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 91.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 90.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 91.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 90.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 91.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 90.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 91.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 90.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 91.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
@@ -1540,7 +1540,7 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 
 1: section
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 108.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 109.
 [1
 
 
@@ -1551,14 +1551,14 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 --------------------
  Declaration of Authorship
 --------------------
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 148.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 149.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 148.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 149.
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
@@ -1572,7 +1572,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--154
  Abstract
 --------------------
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 179.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 180.
 1: section
 [7] [8
 
@@ -1585,8 +1585,8 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 197.
- (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/main.toc
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 198.
+ (./main.toc
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 19.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1599,7 +1599,7 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [12] (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/main.lof)
+ [12] (./main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -1609,7 +1609,7 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
 
 ] [14
 
-] (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/main.lot
+] (./main.lot
 Overfull \hbox (1.2156pt too wide) in paragraph at lines 8--8
  [][] [][][]\T1/ppl/m/n/10.95 Classification of UAVs in the civil realm by Watts, Am-brosia and Hink- 
  []
@@ -1645,7 +1645,7 @@ Overfull \hbox (1.2156pt too wide) in paragraph at lines 8--8
 1: section
 \openout2 = `Chapters/Chapter0.aux'.
 
-(/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter0.tex
+(./Chapters/Chapter0.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
@@ -1674,12 +1674,12 @@ Overfull \hbox (8.37132pt too wide) in paragraph at lines 180--181
 \T1/ppl/m/n/10.95 sided print-ing is as sim-ple as un-com-ment-ing the \T1/cmtt/m/it/10.95 oneside \T1/ppl/m/n/10.95 op-tion of the \T1/cmtt/m/n/10.95 documentclass
  []
 
-[6] [7] <Figures/Electron.pdf, id=561, 398.3386pt x 284.52756pt>
+[6] [7] <Figures/Electron.pdf, id=536, 398.3386pt x 284.52756pt>
 File: Figures/Electron.pdf Graphic file (type pdf)
  <use Figures/Electron.pdf>
 Package pdftex.def Info: Figures/Electron.pdf used on input line 262.
 (pdftex.def)             Requested size: 398.33762pt x 284.52686pt.
- [8 </home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Figures/Electron.pdf>]
+ [8 <./Figures/Electron.pdf>]
 Overfull \hbox (0.90797pt too wide) in paragraph at lines 308--309
 \T1/ppl/m/n/10.95 au-to-mat-i-cally builds a ta-ble of Con-tents by look-ing at all the []\T1/cmtt/m/n/10.95 \chapter{}\T1/ppl/m/n/10.95 , []\T1/cmtt/m/n/10.95 \section{}
  []
@@ -1692,7 +1692,7 @@ Overfull \hbox (0.45015pt too wide) in paragraph at lines 310--311
 [9]) [10]
 \openout2 = `Chapters/Chapter1.aux'.
 
- (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter1.tex
+ (./Chapters/Chapter1.tex
 Chapter 2.
 
 Overfull \hbox (12.00562pt too wide) in paragraph at lines 42--48
@@ -1711,7 +1711,7 @@ LaTeX Warning: Citation 'loquercio2018learning' on page 11 undefined on input li
 ]
 \openout2 = `Chapters/Chapter2.aux'.
 
- (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter2.tex [12
+ (./Chapters/Chapter2.tex [12
 
 
 
@@ -1721,103 +1721,136 @@ Chapter 3.
 LaTeX Warning: Citation 'Fahlstrom2012' on page 13 undefined on input line 96.
 
 
-LaTeX Warning: Citation 'Kong2010' on page 13 undefined on input line 114.
+LaTeX Warning: Citation 'Kong2010' on page 13 undefined on input line 112.
 
 
-LaTeX Warning: Citation 'Austin2011' on page 13 undefined on input line 120.
+LaTeX Warning: Citation 'Austin2011' on page 13 undefined on input line 118.
 
 1: section
 [13]
 
-LaTeX Warning: Citation 'USDOD2011' on page 14 undefined on input line 197.
+LaTeX Warning: Citation 'USDOD2011' on page 14 undefined on input line 199.
 
 
-LaTeX Warning: Citation 'Wei2016' on page 14 undefined on input line 203.
+LaTeX Warning: Citation 'Wei2016' on page 14 undefined on input line 205.
 
 
-LaTeX Warning: Citation 'Watts2012' on page 14 undefined on input line 204.
+LaTeX Warning: Citation 'Watts2012' on page 14 undefined on input line 206.
 
 
-LaTeX Warning: Citation 'Watts2012' on page 14 undefined on input line 217.
+LaTeX Warning: Citation 'Watts2012' on page 14 undefined on input line 219.
 
 
-LaTeX Warning: Citation 'Watts2012' on page 14 undefined on input line 217.
+LaTeX Warning: Citation 'Watts2012' on page 14 undefined on input line 219.
 
 
-Overfull \hbox (51.58035pt too wide) in paragraph at lines 220--231
+Overfull \hbox (51.58035pt too wide) in paragraph at lines 222--233
  [][] 
  []
 
-[14] [15]
+[14]
 
-LaTeX Warning: Citation 'Watts2012' on page 16 undefined on input line 392.
+LaTeX Warning: Citation 'Statista2015' on page 15 undefined on input line 312.
 
 
-Overfull \hbox (2.85204pt too wide) in paragraph at lines 460--478
-[]\T1/ppl/m/n/10.95 3. Crop spray-ing: Distance-measuring equip-ment^^V ul-tra-sonic echo-ing and lasers
+LaTeX Warning: Citation 'Goldman' on page 15 undefined on input line 326.
+
+
+LaTeX Warning: Citation 'Watts2012' on page 15 undefined on input line 330.
+
+
+LaTeX Warning: Citation 'Garcia2019' on page 15 undefined on input line 333.
+
+[15]
+
+LaTeX Warning: Citation 'Ahirwar2019' on page 16 undefined on input line 380.
+
+
+LaTeX Warning: Citation 'DeveronUAS' on page 16 undefined on input line 396.
+
+
+LaTeX Warning: Citation 'DroneSeed' on page 16 undefined on input line 397.
+
+
+LaTeX Warning: Citation 'HSE' on page 16 undefined on input line 398.
+
+
+LaTeX Warning: Citation 'PrecisionHawk' on page 16 undefined on input line 401.
+
+
+LaTeX Warning: Citation 'JD.com2018' on page 16 undefined on input line 415.
+
+
+Overfull \hbox (9.27348pt too wide) in paragraph at lines 378--416
+\T1/ppl/m/n/10.95 over-come the "largest ob-sta-cle" [] in agri-cul-ture, i.e., the in-ef-fi-ciency caused
  []
 
+
+LaTeX Warning: Citation 'Mazur2016' on page 16 undefined on input line 426.
+
+
+LaTeX Warning: Citation 'Ahirwar2019' on page 16 undefined on input line 426.
+
+
+LaTeX Warning: Citation 'Watts2012' on page 16 undefined on input line 446.
+
 [16]
-
-LaTeX Warning: Citation 'Watts2012' on page 17 undefined on input line 545.
-
-
-Overfull \hbox (4.57605pt too wide) in paragraph at lines 567--576
+Overfull \hbox (4.57605pt too wide) in paragraph at lines 468--477
 \T1/ppl/m/n/10.95 com-mer-cial ve-hi-cles> are omit-ted. https://www.statista.com/statistics/816884/last-
  []
 
-[17]
-Overfull \hbox (1.85022pt too wide) in paragraph at lines 600--607
+
+Overfull \hbox (1.85022pt too wide) in paragraph at lines 501--508
  []\T1/ppl/b/n/10.95 Applications[] \T1/ppl/m/n/10.95 The con-cept of com-mer-cial drone de-liv-ery started in 2013 when Ama-
  []
 
 
-LaTeX Warning: Citation 'Ross2018' on page 18 undefined on input line 655.
+LaTeX Warning: Citation 'Ross2018' on page 17 undefined on input line 556.
 
-
-Overfull \hbox (0.90762pt too wide) in paragraph at lines 661--675
+[17]
+Overfull \hbox (0.90762pt too wide) in paragraph at lines 562--576
 \T1/ppl/m/n/10.95 broad so-cial ac-cep-tance to-wards dig-i-tal in-no-va-tions -in com-par-i-son 39% of US Amer-
  []
 
 
-Overfull \hbox (51.96707pt too wide) in paragraph at lines 661--675
+Overfull \hbox (51.96707pt too wide) in paragraph at lines 562--576
 \T1/ppl/m/n/10.95 i-can cit-i-zens are scep-ti-cal to-wards drone de-liv-ery https://www.statista.com/chart/5843/level-
  []
 
 
-Overfull \hbox (12.12083pt too wide) in paragraph at lines 661--675
+Overfull \hbox (12.12083pt too wide) in paragraph at lines 562--576
 \T1/ppl/m/n/10.95 merce Re-port https://www.techinasia.com/2013-china-surpasses-america-to-become-
  []
 
 
-Overfull \hbox (9.02216pt too wide) in paragraph at lines 661--675
+Overfull \hbox (9.02216pt too wide) in paragraph at lines 562--576
 \T1/ppl/m/n/10.95 worlds-top-ecommerce-market https://www.statista.com/study/42335/ecommerce-
  []
 
-[18]
-Overfull \hbox (8.49132pt too wide) in paragraph at lines 696--705
+
+Overfull \hbox (8.49132pt too wide) in paragraph at lines 597--606
 []\T1/ppl/m/n/10.95 https://www.scmp.com/tech/innovation/article/2129585/jdcoms-autonomous-
  []
 
 
-Overfull \hbox (20.78177pt too wide) in paragraph at lines 696--705
+Overfull \hbox (20.78177pt too wide) in paragraph at lines 597--606
 \T1/ppl/m/n/10.95 tens-of-thousands-delivery-drone-landing-pods/ https://jdcorporateblog.com/jd-com-
  []
 
 
-Overfull \hbox (62.0409pt too wide) in paragraph at lines 696--705
+Overfull \hbox (62.0409pt too wide) in paragraph at lines 597--606
 \T1/ppl/m/n/10.95 announces-series-of-new-agreements-for-drone-development/ https://jdcorporateblog.com/jd-
  []
 
-[19] [20] [21] [22]
-Overfull \hbox (14.00458pt too wide) in paragraph at lines 1168--1172
+[18] [19] [20] [21] [22]
+Overfull \hbox (14.00458pt too wide) in paragraph at lines 1109--1113
 \T1/ppl/m/n/10.95 sen-sors. Though many ad-vanced re-search has used light de-tec-tion and rang-ing(LiDAR)
  []
 
-[23]) [24]
+) [23] [24]
 \openout2 = `Chapters/Chapter3.aux'.
 
- (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter3.tex
+ (./Chapters/Chapter3.tex
 Chapter 4.
 1: section
 [25
@@ -1827,7 +1860,7 @@ Chapter 4.
 ] [26]) [27]
 \openout2 = `Appendices/AppendixA.aux'.
 
- (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Appendices/AppendixA.tex [28
+ (./Appendices/AppendixA.tex [28
 
 
 
@@ -1839,16 +1872,16 @@ Appendix A.
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 289.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
 
 1: section
 [31]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 289.
- (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/main.aux (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter0.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter1.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter2.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter3.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Appendices/AppendixA.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 289.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 289.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
+ (./main.aux (./Chapters/Chapter0.aux) (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Appendices/AppendixA.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6D1998A96C04B8E3B67A1ADDC7DF5FEF;12671.
+(rerunfilecheck)             Checksum: 2249D753480E6DF3A847FE3D3DC10A03;12078.
 
 
 LaTeX Warning: There were undefined references.
@@ -1862,20 +1895,20 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  )
-(\end occurred when \iftrue on line 90 was incomplete) 
+(\end occurred when \iftrue on line 91 was incomplete) 
 Here is how much of TeX's memory you used:
- 30928 strings out of 493029
- 624691 string characters out of 6136234
+ 30919 strings out of 493029
+ 620319 string characters out of 6136234
  723588 words of memory out of 5000000
- 33953 multiletter control sequences out of 15000+600000
+ 33951 multiletter control sequences out of 15000+600000
  75537 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,21n,82p,10462b,2242s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,21n,82p,10458b,2242s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfit1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfst1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/main.pdf" (55 pages, 342319 bytes).
+Output written on main.pdf (55 pages, 341020 bytes).
 PDF statistics:
- 829 PDF objects out of 1000 (max. 8388607)
- 743 compressed objects within 8 object streams
- 159 named destinations out of 1000 (max. 500000)
- 582 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 803 PDF objects out of 1000 (max. 8388607)
+ 717 compressed objects within 8 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 542 words of extra memory for PDF output out of 10000 (max. 10000000)
 

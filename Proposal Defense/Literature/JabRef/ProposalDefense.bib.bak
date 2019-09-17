@@ -96,4 +96,110 @@
   howpublished = {https://flyzipline.com/impact/},
 }
 
-@Comment{jabref-meta: databaseType:bibtex;}
+@Proceedings{USDOD2011,
+  title        = {Unmanned Aircraft System Airspace Integration Plan, Version 2.0},
+  year         = {2011},
+  month        = mar,
+  organization = {United States Department of Defense},
+  url          = {https://web.archive.org/web/20160121155841/http://www.acq.osd.mil/sts/docs/DoD_UAS_Airspace_Integ_Plan_v2_(signed).pdf},
+}
+
+@Article{Wei2016,
+  author       = {Wei, Jun and Tazewell Ellet, E. and Ellman, Lisa and Rizzi, Patrick R. and Zhou, Lu E. Tazewell Ellett},
+  title        = {China Launches First Operational Rules for Civil Unmanned Aircraft},
+  journal      = {Hogan Lovells},
+  year         = {2016},
+  month        = jan,
+  howpublished = {https://www.hlmediacomms.com/2016/01/21/china-launches-first-operational-rules-for-civil-unmanned-aircraft/},
+  url          = {https://www.hlmediacomms.com/2016/01/21/china-launches-first-operational-rules-for-civil-unmanned-aircraft/
+},
+}
+
+@MastersThesis{Garcia2019,
+  author = {Garcia, Oriol Rosales and Santoso, Antonius},
+  title  = {Comparative Evaluation of Drone Delivery Systemsin Last-Mile Delivery},
+  year   = {2019},
+  type   = {mathesis},
+  month  = jun,
+  url    = {https://dspace.mit.edu/bitstream/handle/1721.1/121319/Garcia_Santoso_2019.pdf?sequence=1&isAllowed=y#cite.IWM},
+  school = {MASSACHUSETTS INSTITUTE OF TECHNOLOGY},
+}
+
+@Misc{Statista2015,
+  author       = {Statista Research Department,},
+  title        = {Largest consumer drone vendors in 2014, based on estimated revenue (in million U.S. dollars)},
+  year         = {2015},
+  howpublished = {https://www.statista.com/statistics/431746/revenue-of-the-largest-drone-vendors/},
+  month        = apr,
+  url          = {https://www.statista.com/statistics/431746/revenue-of-the-largest-drone-vendors/},
+  abstract     = {This graph illustrates selected consumer drone manufacturers' estimated revenue streams in 2014. That year, DJI generated an estimated 500 million U.S. dollars in revenue. The Chinese manufacturer accounts for about 70 percent of consumer drone sales. },
+  institution  = {Statista},
+}
+
+@Misc{Goldman,
+  author       = {Goldman Sachs Research,},
+  title        = {Drones - Reporting for Work},
+  howpublished = {https://www.goldmansachs.com/insights/technology-driving-innovation/drones/},
+  url          = {https://www.goldmansachs.com/insights/technology-driving-innovation/drones/},
+}
+
+@TechReport{Mazur2016,
+  author      = {Mazur, Michael},
+  title       = {Six Ways Drones Are Revolutionizing Agriculture},
+  institution = {PricewaterhouseCoopers},
+  year        = {2016},
+  url         = {https://www.technologyreview.com/s/601935/six-ways-drones-are-revolutionizing-agriculture/},
+  journal     = {MIT Technology Review},
+}
+
+@Misc{JD.com2018,
+  author       = {JD.com Corporate Blog,},
+  title        = {JD Cultivates New Smart Agriculture Push in China},
+  year         = {2018},
+  howpublished = {https://jdcorporateblog.com/jd-cultivates-new-smart-agriculture-push-in-china/},
+  month        = apr,
+  url          = {https://jdcorporateblog.com/jd-cultivates-new-smart-agriculture-push-in-china/},
+}
+
+@Article{Ahirwar2019,
+  author    = {S. Ahirwar and R. Swarnkar and S. Bhukya and G. Namwade},
+  title     = {Application of Drone in Agriculture},
+  journal   = {International Journal of Current Microbiology and Applied Sciences},
+  year      = {2019},
+  volume    = {8},
+  number    = {01},
+  month     = {jan},
+  pages     = {2500--2505},
+  doi       = {10.20546/ijcmas.2019.801.264},
+  publisher = {Excellent Publishers},
+}
+
+@Misc{DeveronUAS,
+  author       = {Deveron UAS,},
+  title        = {Imagery \& Targeted Soil Sampling},
+  howpublished = {https://deveronuas.com/products/imagery-targeted-soil-sampling/},
+  url          = {https://deveronuas.com/about-us/advisory-board/},
+}
+
+@Misc{DroneSeed,
+  author       = {DroneSeed},
+  title        = {Services},
+  howpublished = {https://www.droneseed.co/services},
+  url          = {https://www.droneseed.co/services},
+}
+
+@Misc{HSE,
+  author       = {HSE UAV,},
+  title        = {HSE Agriculture UAV Crop Duster Sprayers},
+  howpublished = {http://www.uavcropdustersprayers.com/},
+  url          = {http://www.uavcropdustersprayers.com/},
+}
+
+@Misc{PrecisionHawk,
+  author       = {PrecisionHawk},
+  title        = {Drone Data Collection and Analytics for Agriculture},
+  howpublished = {https://www.precisionhawk.com/agriculture},
+  url          = {https://www.precisionhawk.com/agriculture},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}

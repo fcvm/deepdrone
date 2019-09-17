@@ -27,13 +27,23 @@ Warning--I didn't find a database entry for "Austin2011"
 Warning--I didn't find a database entry for "USDOD2011"
 Warning--I didn't find a database entry for "Wei2016"
 Warning--I didn't find a database entry for "Watts2012"
+Warning--I didn't find a database entry for "Statista2015"
+Warning--I didn't find a database entry for "Goldman"
+Warning--I didn't find a database entry for "Garcia2019"
+Warning--I didn't find a database entry for "Ahirwar2019"
+Warning--I didn't find a database entry for "DeveronUAS"
+Warning--I didn't find a database entry for "DroneSeed"
+Warning--I didn't find a database entry for "HSE"
+Warning--I didn't find a database entry for "PrecisionHawk"
+Warning--I didn't find a database entry for "JD.com2018"
+Warning--I didn't find a database entry for "Mazur2016"
 Warning--I didn't find a database entry for "Ross2018"
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 You've used 4 entries,
             6047 wiz_defined-function locations,
-            1178 strings with 10353 characters,
+            1198 strings with 10541 characters,
 and the built_in function-call counts, 11630 in all, are:
 = -- 380
 > -- 435
@@ -72,4 +82,4 @@ warning$ -- 0
 while$ -- 120
 width$ -- 0
 write$ -- 129
-(There were 8 warnings)
+(There were 18 warnings)

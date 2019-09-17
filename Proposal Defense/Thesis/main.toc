@@ -31,58 +31,53 @@
 \contentsline {chapter}{\numberline {2}Introduction}{11}{chapter.42}
 \contentsline {section}{\numberline {2.1}Creative Introduction}{11}{section.43}
 \contentsline {chapter}{\numberline {3}Literature Review}{13}{chapter.44}
-\contentsline {section}{\numberline {3.1}Unmanned Aerial Vehicle}{13}{section.45}
+\contentsline {section}{\numberline {3.1}Classification of Unmanned Aerial Vehicles}{13}{section.45}
 \contentsline {subsection}{\numberline {3.1.1}Classification by Airframe Type}{14}{subsection.46}
 \contentsline {subsection}{\numberline {3.1.2}Classification by Key Characteristics}{14}{subsection.47}
-\contentsline {subsection}{\numberline {3.1.3}The Quadcopter MAV for my Research}{15}{subsection.49}
-\contentsline {section}{\numberline {3.2}Navigation of an Autonomous Quadcopter}{15}{section.50}
-\contentsline {subsection}{\numberline {3.2.1}Low-level control by Autopilot}{15}{subsection.51}
-\contentsline {subsection}{\numberline {3.2.2}High-level control}{15}{subsection.52}
-\contentsline {paragraph}{Human Pilot}{15}{section*.53}
-\contentsline {section}{\numberline {3.3}Civil Applications of Multicopters}{16}{section.54}
-\contentsline {subsection}{\numberline {3.3.1}Passenger Transport}{16}{subsection.55}
-\contentsline {subsection}{\numberline {3.3.2}Freight Traffic}{16}{subsection.56}
-\contentsline {subsection}{\numberline {3.3.3}Agriculture}{16}{subsection.57}
-\contentsline {subsection}{\numberline {3.3.4}Healthcare}{17}{subsection.58}
-\contentsline {subsection}{\numberline {3.3.5}Environmental Protection}{17}{subsection.59}
-\contentsline {subsection}{\numberline {3.3.6}Delivery service}{17}{subsection.60}
-\contentsline {paragraph}{Introduction}{17}{section*.61}
-\contentsline {paragraph}{Potential}{17}{section*.62}
-\contentsline {paragraph}{Applications}{18}{section*.63}
-\contentsline {paragraph}{Limiting factors}{20}{section*.64}
-\contentsline {paragraph}{Current Research}{21}{section*.65}
-\contentsline {subsection}{\numberline {3.3.7}Entertainment}{21}{subsection.66}
-\contentsline {subsection}{\numberline {3.3.8}Power and Utilities Industry}{21}{subsection.67}
-\contentsline {subsection}{\numberline {3.3.9}Passenger Transport}{21}{subsection.68}
-\contentsline {subsection}{\numberline {3.3.10}Cellular Connectivity}{21}{subsection.69}
-\contentsline {subsection}{\numberline {3.3.11}Civil Engineering}{21}{subsection.70}
-\contentsline {section}{\numberline {3.4}Autonomous Navigation Systems of Small Quadcopter UAVs}{21}{section.71}
-\contentsline {subsection}{\numberline {3.4.1}Dynamics and Control}{21}{subsection.72}
-\contentsline {subsection}{\numberline {3.4.2}Autonomous Flight}{22}{subsection.73}
-\contentsline {subsection}{\numberline {3.4.3}Autonomy}{22}{subsection.74}
-\contentsline {subsection}{\numberline {3.4.4}Hierarchical Control Architecture of a Fully Autonomous UAV}{22}{subsection.75}
-\contentsline {paragraph}{Organization Level}{23}{section*.76}
-\contentsline {paragraph}{Coordination Level}{23}{section*.77}
-\contentsline {subsection}{\numberline {3.4.5}Autonomous Navigation Systems for Small Quadcopters}{23}{subsection.78}
-\contentsline {paragraph}{Classical System Architecture}{23}{section*.79}
-\contentsline {paragraph}{Camera Based System Architecture For Reactive Flight Control Pipeline}{23}{section*.80}
-\contentsline {paragraph}{System Architecture For Fully End-to-End LIDAR Based Reactive Flight Control Pipeline}{23}{section*.81}
-\contentsline {paragraph}{LIDAR to Actions System Architecture}{23}{section*.82}
-\contentsline {paragraph}{Challenges}{23}{section*.83}
-\contentsline {subsection}{\numberline {3.4.6}Traditional Approaches}{24}{subsection.84}
-\contentsline {subsection}{\numberline {3.4.7}Newly Developed}{24}{subsection.85}
-\contentsline {section}{\numberline {3.5}Drone Racing}{24}{section.86}
-\contentsline {chapter}{\numberline {4}Research Objective}{25}{chapter.87}
-\contentsline {section}{\numberline {4.1}Anticipated Contribution}{25}{section.88}
-\contentsline {subsection}{\numberline {4.1.1}Subsection 1}{25}{subsection.89}
-\contentsline {subsection}{\numberline {4.1.2}Subsection 2}{25}{subsection.90}
-\contentsline {section}{\numberline {4.2}Research Plan}{25}{section.91}
-\contentsline {subsection}{\numberline {4.2.1}Framework for Experiments in Simulation}{25}{subsection.92}
-\contentsline {subsection}{\numberline {4.2.2}Framework for Experiments in Real World}{26}{subsection.93}
-\contentsline {subsection}{\numberline {4.2.3}Perception and Planning Algorithm}{26}{subsection.94}
-\contentsline {section}{\numberline {4.3}Methodology and Elaboration}{26}{section.95}
-\contentsline {section}{\numberline {4.4}Solutions}{27}{section.96}
-\contentsline {section}{\numberline {4.5}Schedule of Thesis Writing and Proposed Date of Defense}{27}{section.97}
-\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{29}{appendix.98}
-\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{29}{section.99}
-\contentsline {chapter}{Bibliography}{31}{appendix*.100}
+\contentsline {subsection}{\numberline {3.1.3}The UAV of my Research}{15}{subsection.49}
+\contentsline {section}{\numberline {3.2}Commercial and Civil Applications of Multicopter UAVs}{15}{section.50}
+\contentsline {subsection}{\numberline {3.2.1}Agriculture}{16}{subsection.51}
+\contentsline {subsection}{\numberline {3.2.2}Healthcare}{16}{subsection.52}
+\contentsline {subsection}{\numberline {3.2.3}Environmental Protection}{16}{subsection.53}
+\contentsline {subsection}{\numberline {3.2.4}B2C Delivery Service}{16}{subsection.54}
+\contentsline {paragraph}{Introduction}{17}{section*.55}
+\contentsline {paragraph}{Potential}{17}{section*.56}
+\contentsline {paragraph}{Applications}{17}{section*.57}
+\contentsline {paragraph}{Limiting factors}{19}{section*.58}
+\contentsline {paragraph}{Current Research}{20}{section*.59}
+\contentsline {subsection}{\numberline {3.2.5}Drone Racing}{20}{subsection.60}
+\contentsline {subsection}{\numberline {3.2.6}Civil Engineering}{20}{subsection.61}
+\contentsline {section}{\numberline {3.3}Navigation of an Autonomous Quadcopter}{20}{section.62}
+\contentsline {subsection}{\numberline {3.3.1}Low-level control by Autopilot}{20}{subsection.63}
+\contentsline {subsection}{\numberline {3.3.2}High-level control}{20}{subsection.64}
+\contentsline {paragraph}{Human Pilot}{21}{section*.65}
+\contentsline {section}{\numberline {3.4}Autonomous Navigation Systems of Small Quadcopter UAVs}{21}{section.66}
+\contentsline {subsection}{\numberline {3.4.1}Dynamics and Control}{21}{subsection.67}
+\contentsline {subsection}{\numberline {3.4.2}Autonomous Flight}{21}{subsection.68}
+\contentsline {subsection}{\numberline {3.4.3}Autonomy}{21}{subsection.69}
+\contentsline {subsection}{\numberline {3.4.4}Hierarchical Control Architecture of a Fully Autonomous UAV}{22}{subsection.70}
+\contentsline {paragraph}{Organization Level}{22}{section*.71}
+\contentsline {paragraph}{Coordination Level}{22}{section*.72}
+\contentsline {subsection}{\numberline {3.4.5}Autonomous Navigation Systems for Small Quadcopters}{22}{subsection.73}
+\contentsline {paragraph}{Classical System Architecture}{22}{section*.74}
+\contentsline {paragraph}{Camera Based System Architecture For Reactive Flight Control Pipeline}{23}{section*.75}
+\contentsline {paragraph}{System Architecture For Fully End-to-End LIDAR Based Reactive Flight Control Pipeline}{23}{section*.76}
+\contentsline {paragraph}{LIDAR to Actions System Architecture}{23}{section*.77}
+\contentsline {paragraph}{Challenges}{23}{section*.78}
+\contentsline {subsection}{\numberline {3.4.6}Traditional Approaches}{23}{subsection.79}
+\contentsline {subsection}{\numberline {3.4.7}Newly Developed}{23}{subsection.80}
+\contentsline {section}{\numberline {3.5}Research on Drone Racing}{24}{section.81}
+\contentsline {chapter}{\numberline {4}Research Objective}{25}{chapter.82}
+\contentsline {section}{\numberline {4.1}Anticipated Contribution}{25}{section.83}
+\contentsline {subsection}{\numberline {4.1.1}Subsection 1}{25}{subsection.84}
+\contentsline {subsection}{\numberline {4.1.2}Subsection 2}{25}{subsection.85}
+\contentsline {section}{\numberline {4.2}Research Plan}{25}{section.86}
+\contentsline {subsection}{\numberline {4.2.1}Framework for Experiments in Simulation}{25}{subsection.87}
+\contentsline {subsection}{\numberline {4.2.2}Framework for Experiments in Real World}{26}{subsection.88}
+\contentsline {subsection}{\numberline {4.2.3}Perception and Planning Algorithm}{26}{subsection.89}
+\contentsline {section}{\numberline {4.3}Methodology and Elaboration}{26}{section.90}
+\contentsline {section}{\numberline {4.4}Solutions}{27}{section.91}
+\contentsline {section}{\numberline {4.5}Schedule of Thesis Writing and Proposed Date of Defense}{27}{section.92}
+\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{29}{appendix.93}
+\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{29}{section.94}
+\contentsline {chapter}{Bibliography}{31}{appendix*.95}
