@@ -1,20 +1,16 @@
 # Autonomous, vision-based navigation of MAVs with powers of recall
-
+A navigation system for micro aerial vehicles (MAVs) with a forward facing onboard camera which should empower MAVs to autonomously traverse through a drone-racing track with high agility and high robustness. The navigation system is mainly based on the work of Kaufmann et al. (reference 1) who achieved: 
+- high agility
+- coping with dynamic environments
+- onboard real-time implementation. 
+During testing, MAVs do not require a map of the environment because they localize themselves relatively to the next racing gate appearing on the current image from the camera. In addition to their work, this navigation system should not only input the current image but also elapsed images in order to increase robustness against feature loss, i.e., no racing gate is located in the frame of view (FOV) of the camera. This should be realised by forwarding the output of a convolutional neural network (CNN) to a long-short-term-memory network (LSTM). To my knowledge, the use of memory in autonomous navigation of MAVs is widely unexplored.
 
 
 ## References
 
 1. E. Kaufmann, A. Loquercio, R. Ranftl, A. Dosovitskiy, V. Koltun, and D. Scaramuzza. Deep drone racing: Learning agile flight in dynamic environments. arXiv preprint arXiv:1806.08548, 2018.
 
-*Description*
 
-They developed a supervised learning method which enabled a vision-based quadrocopter
-to autonomously traverse through a drone-racing track with high agility. 
-While the drone was exclusively trained in static environments, in test it was capable of
-flying through moving race track gates, i. e. it handled navigating through **dynamic environments**.
-Thereby, the drone did not require any explicit map of the environment, but
-only localize itself relative to the next gate relying on camera images. All computation
-run fully onboard.
 
 ## Ideas for Extensions
 
