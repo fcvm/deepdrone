@@ -25,11 +25,14 @@ roslaunch px4 mavros_posix_sitl.launch
 Horizontal takeoff and landing. In the PX4 system console (same terminal):
 ```bash
 commander takeoff
+#and
 commander land
 ```
 Track pre-defined waypoints: In a new terminal:
 ```bash
 rosrun offb offb_node
+#or
+rosrun drone_racetrack offb_traj.py
 ```
 ---
 
@@ -37,6 +40,28 @@ Launch Gazebo simulation with quadcopter (model: Iris) with front camera. In a t
 ```bash
 roslaunch px4 posix_sitl.launch sdf:=/home/fm/src/Firmware/Tools/sitl_gazebo/models/iris_fpv_cam/iris_fpv_cam.sdf
 ```
+---
+
+Launch Gazebo simulation with drone racetrack generator. In a terminal:
+```
+roslaunch drone_racetrack drt.launch
+```
+
+---
+
+Launch Gazebo simulation with quadcopter (model: Iris) with controller that tracks circular trajectory. In a terminal:
+```
+roslaunch geometric_controller sitl_trajectory_track_circle.launch
+```
+
+
+
+## Write Thesis
+Launch JabRef. In a terminal:
+```
+java -jar Desktop/Programs and Services/JabRef-4.3.1.jar
+```
+---
 
 
 ## References
