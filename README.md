@@ -68,14 +68,24 @@ git submodule update --init --recursive
 
 ## Run Simulation
 
+
 ```
 roslaunch mavros px4.launch fcu_url:="udp://:14540@127.0.0.1:14557"
 make px4_sitl_default gazebo
+```
+---
 
---or--
-
+In terminal: start Gazebo with standard quadcopter
+```console
 roslaunch px4 mavros_posix_sitl.launch
-then
+```
+In the px4-console: takeoff and landing
+```shell
+commander takeoff
+commander land
+```
+
+```bash
 rosrun offb offb_node
 ```
 
