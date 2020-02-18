@@ -1,5 +1,5 @@
-# re-implementation-deep-drone-racing
-*With enhancements, extensions and transfers to other areas of application*
+# Autonomous, vision-based navigation of MAVs with powers of recall
+
 
 
 **Following**
@@ -70,22 +70,28 @@ git submodule update --init --recursive
 
 
 ```
-roslaunch mavros px4.launch fcu_url:="udp://:14540@127.0.0.1:14557"
-make px4_sitl_default gazebo
-```
----
 
-In terminal: start Gazebo with standard quadcopter
-```console
+```
+
+
+Launch Gazebo simulation with standard quadcopter (model: Iris). In a terminal:
+```bash
 roslaunch px4 mavros_posix_sitl.launch
 ```
-In the px4-console: takeoff and landing
-```shell
+Horizontal takeoff and landing. In the PX4 system console (same terminal):
+```bash
 commander takeoff
 commander land
 ```
-
+Track pre-defined waypoints: In a new terminal:
 ```bash
 rosrun offb offb_node
 ```
+---
+
+Launch Gazebo simulation with quadcopter (model: Iris) with front camera. In a terminal:
+```bash
+roslaunch px4 posix_sitl.launch sdf:=/home/fm/src/Firmware/Tools/sitl_gazebo/models/iris_fpv_cam/iris_fpv_cam.sdf
+```
+
 
