@@ -4,9 +4,7 @@
 
 ## References
 
-- [1] E. Kaufmann, A. Loquercio, R. Ranftl, A. Dosovitskiy, V. Koltun, and D. Scaramuzza. Deep
-drone racing: Learning agile flight in dynamic environments. arXiv preprint arXiv:1806.08548,
-2018.
+1. E. Kaufmann, A. Loquercio, R. Ranftl, A. Dosovitskiy, V. Koltun, and D. Scaramuzza. Deep drone racing: Learning agile flight in dynamic environments. arXiv preprint arXiv:1806.08548, 2018.
 
 *Description*
 
