@@ -59,7 +59,7 @@ roslaunch geometric_controller sitl_trajectory_track_circle.launch
 ## Write Thesis
 Launch JabRef. In a terminal:
 ```
-java -jar Desktop/Programs and Services/JabRef-4.3.1.jar
+java -jar Desktop/Programs\ and\ Services/JabRef-4.3.1.jar
 ```
 ---
 
