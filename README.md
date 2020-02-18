@@ -8,11 +8,13 @@ During testing, MAVs do not require a map of the environment because they locali
 
 
 ## Setup
+```git
 git clone <<Firmware>>
 git tag -l
 git checkout v1.8.2 #This release was the latest stable one in my experience
 git submodule sync --recursive
 git submodule update --init --recursive
+```
 
 
 ## Run Simulation
