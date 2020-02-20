@@ -64,5 +64,13 @@ java -jar Desktop/Programs\ and\ Services/JabRef-4.3.1.jar
 ---
 
 
+## Minimum snap trajectory generation and control for quadrotors
+### Equations
+Angular velocities of frame B in frame W
+<img src="https://latex.codecogs.com/gif.latex? \omega_{BW} = p \vec x_B + q \vec y_B + r \vec z_B" /> 
+
+
+
+
 ## References
 1. E. Kaufmann, A. Loquercio, R. Ranftl, A. Dosovitskiy, V. Koltun, and D. Scaramuzza. Deep drone racing: Learning agile flight in dynamic environments. arXiv preprint arXiv:1806.08548, 2018.
