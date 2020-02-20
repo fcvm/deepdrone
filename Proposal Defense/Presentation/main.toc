@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{State of Research}{4}{0}{1}
+\beamer@sectionintoc {2}{Research Objective}{5}{0}{2}
+\beamer@sectionintoc {3}{Methodology}{6}{0}{3}
+\beamer@sectionintoc {4}{Introduction}{7}{0}{4}
+\beamer@sectionintoc {5}{Titleformats}{10}{0}{5}
+\beamer@sectionintoc {6}{Elements}{15}{0}{6}
+\beamer@sectionintoc {7}{Conclusion}{32}{0}{7}

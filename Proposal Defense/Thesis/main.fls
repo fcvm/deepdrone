@@ -238,6 +238,12 @@ INPUT /home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defens
 INPUT /home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter2.aux
 INPUT /home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter3.aux
 INPUT /home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter3.aux
+INPUT /home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Appendices/AppendixA.aux
+INPUT /home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Appendices/AppendixA.aux
+INPUT /home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Appendices/AppendixB.aux
+INPUT /home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Appendices/AppendixB.aux
+INPUT /home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Appendices/AppendixC.aux
+INPUT /home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Appendices/AppendixC.aux
 OUTPUT /home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/main.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd

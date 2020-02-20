@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.14)  7 DEC 2019 21:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.14)  13 DEC 2019 14:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1663,11 +1663,7 @@ File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/main.aux (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter1.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter2.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter3.aux)
-No file Appendices/AppendixA.aux.
-No file Appendices/AppendixB.aux.
-No file Appendices/AppendixC.aux.
-)
+ (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/main.aux (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter1.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter2.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter3.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Appendices/AppendixA.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Appendices/AppendixB.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Appendices/AppendixC.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
@@ -2268,28 +2264,17 @@ Overfull \hbox (24.89885pt too wide) in paragraph at lines 214--225
 \T1/ppl/m/n/10.95 based so-lu-tions are al-ready be-ing of-fered in the agri-cul-tural sec-tor, UAV-based/integrated
  []
 
-[6] [7]
-
-LaTeX Warning: Reference `AppendixC' on page 8 undefined on input line 309.
-
-[8]
+[6] [7] [8]
 Overfull \hbox (10.34096pt too wide) in paragraph at lines 373--426
 []\T1/ppl/m/n/10.95 While in ru-ral ar-eas, UAV de-liv-ery is al-ready de-ployed in spo-radic pi-o-neer projects,
  []
 
-[9] [10] [11]
-
-LaTeX Warning: Reference `fig:levels_of_automation_in_man-computer_decision_making_for_a_single_elemental_decisive_step' on page 12 undefined on input line 536.
-
-
-LaTeX Warning: Reference `tab:chart_of_autonomous_control_levels_by_Clough' on page 12 undefined on input line 576.
-
-<Figures/draw.io/underlying_concept_of_the_OODA_loop_by_Boyd.pdf, id=429, 475.7775pt x 66.2475pt>
+[9] [10] [11] <Figures/draw.io/underlying_concept_of_the_OODA_loop_by_Boyd.pdf, id=432, 475.7775pt x 66.2475pt>
 File: Figures/draw.io/underlying_concept_of_the_OODA_loop_by_Boyd.pdf Graphic file (type pdf)
  <use Figures/draw.io/underlying_concept_of_the_OODA_loop_by_Boyd.pdf>
 Package pdftex.def Info: Figures/draw.io/underlying_concept_of_the_OODA_loop_by_Boyd.pdf used on input line 587.
 (pdftex.def)             Requested size: 404.02908pt x 56.26009pt.
- [12] <Figures/draw.io/hierarchical_control_architecture_for_autonomous_UAV.pdf, id=444, 594.30032pt x 478.66827pt>
+ [12] <Figures/draw.io/hierarchical_control_architecture_for_autonomous_UAV.pdf, id=447, 594.30032pt x 478.66827pt>
 File: Figures/draw.io/hierarchical_control_architecture_for_autonomous_UAV.pdf Graphic file (type pdf)
  <use Figures/draw.io/hierarchical_control_architecture_for_autonomous_UAV.pdf>
 Package pdftex.def Info: Figures/draw.io/hierarchical_control_architecture_for_autonomous_UAV.pdf used on input line 647.
@@ -2300,7 +2285,7 @@ pdfTeX warning: pdflatex (file /home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/
 >] [14 </home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Figures/draw.io/hierarchical_control_architecture_for_autonomous_UAV.pdf
 
 pdfTeX warning: pdflatex (file /home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Figures/draw.io/hierarchical_control_architecture_for_autonomous_UAV.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <Figures/draw.io/sub-tasks_of_navigation.pdf, id=497, 483.72719pt x 240.9pt>
+>] <Figures/draw.io/sub-tasks_of_navigation.pdf, id=500, 483.72719pt x 240.9pt>
 File: Figures/draw.io/sub-tasks_of_navigation.pdf Graphic file (type pdf)
  <use Figures/draw.io/sub-tasks_of_navigation.pdf>
 Package pdftex.def Info: Figures/draw.io/sub-tasks_of_navigation.pdf used on input line 819.
@@ -2313,9 +2298,6 @@ pdfTeX warning: pdflatex (file /home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/
 
  (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter3.tex
 Chapter 3.
-
-LaTeX Warning: Citation 'Shakeri2019' on page 21 undefined on input line 65.
-
 1: section
 [21
 
@@ -2334,7 +2316,7 @@ File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 
  (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Appendices/AppendixA.tex
 Appendix A.
-<Figures/draw.io/levels_of_automation_in_man-computer_decision_making_for_a_single_elemental_decisive_step.pdf, id=667, 485.89528pt x 704.6325pt>
+<Figures/draw.io/levels_of_automation_in_man-computer_decision_making_for_a_single_elemental_decisive_step.pdf, id=672, 485.89528pt x 704.6325pt>
 File: Figures/draw.io/levels_of_automation_in_man-computer_decision_making_for_a_single_elemental_decisive_step.pdf Graphic file (type pdf)
  <use Figures/draw.io/levels_of_automation_in_man-computer_decision_making_for_a_single_elemental_decisive_step.pdf>
 Package pdftex.def Info: Figures/draw.io/levels_of_automation_in_man-computer_decision_making_for_a_single_elemental_decisive_step.pdf used on input line 10.
@@ -2550,7 +2532,7 @@ Overfull \hbox (13.45108pt too wide) in paragraph at lines 334--334
 \T1/ppl/m/n/10.95 multi-rotors: A fron-tier se-lec-tion method for high speed flight^^Q, in \T1/ppl/m/it/10.95 2017 IEEE/RSJ
  []
 
-[39]
+[39] [40]
 Overfull \hbox (25.84387pt too wide) in paragraph at lines 334--334
 []\T1/ppl/m/n/10.95 M. Faessler, F. Fontana, C. Forster, and D. Scara-muzza, ^^P  Au-to-matic re-initialization
  []
@@ -2560,9 +2542,9 @@ Overfull \hbox (14.40967pt too wide) in paragraph at lines 334--334
 \T1/ppl/m/n/10.95 and fail-ure re-cov-ery for ag-gres-sive flight with a monoc-u-lar vision-based quadro-
  []
 
-[40]
+[41]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 338.
- [41]
+ [42]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 338.
  (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/main.aux (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter1.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter2.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Chapters/Chapter3.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Appendices/AppendixA.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Appendices/AppendixB.aux) (/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/Appendices/AppendixC.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 338.
@@ -2573,35 +2555,24 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  )
 (\end occurred when \iftrue on line 122 was incomplete) 
 Here is how much of TeX's memory you used:
- 34122 strings out of 493029
- 671766 string characters out of 6136234
+ 34134 strings out of 493029
+ 672524 string characters out of 6136234
  932904 words of memory out of 5000000
- 36929 multiletter control sequences out of 15000+600000
+ 36933 multiletter control sequences out of 15000+600000
  61082 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,20n,82p,10462b,2625s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu53.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu59.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu5b.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu69.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu6e.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu80.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu96.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/main.pdf" (51 pages, 902038 bytes).
+Output written on "/home/fm/dev/Tsinghua/MasterThesis/catkin_ws/src/deepdrone/Proposal Defense/Thesis/main.pdf" (52 pages, 902464 bytes).
 PDF statistics:
- 1116 PDF objects out of 1200 (max. 8388607)
- 987 compressed objects within 10 object streams
- 216 named destinations out of 1000 (max. 500000)
+ 1130 PDF objects out of 1200 (max. 8388607)
+ 1000 compressed objects within 10 object streams
+ 218 named destinations out of 1000 (max. 500000)
  254 words of extra memory for PDF output out of 10000 (max. 10000000)
 

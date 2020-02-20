@@ -3163,6 +3163,67 @@
   \field{year}{2017}
 \endentry
 
+\entry{Shakeri2019}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Shakeri}{S.}%
+     {Reza}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Al-Garadi}{A.-G.}%
+     {Mohammed~Ali}{M.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Badawy}{B.}%
+     {Ahmed}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mohamed}{M.}%
+     {Amr}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Khattab}{K.}%
+     {Tamer}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Al-Ali}{A.-A.}%
+     {Abdulla~Khalid}{A.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Harras}{H.}%
+     {Khaled~A.}{K.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guizani}{G.}%
+     {Mohsen}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {Institute of Electrical}%
+    {Electronics Engineers ({IEEE})}%
+  }
+  \strng{namehash}{SRAGMABA+1}
+  \strng{fullhash}{SRAGMABAMAKTAAAKHKAGM1}
+  \verb{doi}
+  \verb 10.1109/comst.2019.2924143
+  \endverb
+  \field{number}{4}
+  \field{pages}{3340\bibrangedash 3385}
+  \field{title}{Design Challenges of Multi-{UAV} Systems in Cyber-Physical
+  Applications: A Comprehensive Survey and Future Directions}
+  \field{volume}{21}
+  \field{journaltitle}{{IEEE} Communications Surveys {\&} Tutorials}
+  \field{year}{2019}
+\endentry
+
 \entry{OpenCV}{article}{}
   \name{author}{1}{}{%
     {{}%
