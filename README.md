@@ -74,6 +74,25 @@ Angular velocities of frame B in frame W
 <!-- \omega_{BW} = p \vec x_B + q \vec y_B + r \vec z_B -->
 
 Control input
+![equation](https://quicklatex.com/cache3/d5/ql_a7d5833b136f53c0f7ca70a9b4f975d5_l3.png)
+&nbsp; &nbsp; **(2)**
+<!-- \vec u = \begin{bmatrix}k_\text{F} & k_\text{F} & k_\text{F} & k_\text{F} \\0 & k_\text{F} L & 0 & - k_\text{F} L \\ k_\text{F} L & 0 & k_\text{F} L & 0 \\ k_\text{M} & - k_\text{M} & k_\text{M} & -k_\text{M} \\ \end{bmatrix} \begin{bmatrix}\omega_1^2 \\ \omega_2^2 \\ \omega_3^2 \\ \omega_4^2 \\ \end{bmatrix} -->
+
+Newton's equation of motion
+![equation](https://quicklatex.com/cache3/62/ql_e608cddf0a2a3b67530a6f00a111c562_l3.png)
+&nbsp; &nbsp; **(3)**
+<!-- m \ddot{\vec{r}} = -mg \vec z_W + u_1 \vec z_B -->
+
+Euler equation
+![equation](https://quicklatex.com/cache3/1e/ql_e0e0ed9dcf5d0d86df4c2b6a21bcf91e_l3.png)
+&nbsp; &nbsp; **(4)**
+<!-- \dot{\vec \omega}_{BW} = I^{-1} \left[ - \vec \omega_{BW} \times I \vec \omega_{BW} + \begin{bmatrix} u_2\\ u_3\\ u_4 \end{bmatrix} \right] -->
+
+Trajectory: smooth curve in the space of flat outputs
+![equation](https://quicklatex.com/cache3/35/ql_452526385cb285d2ef93f42d24340035_l3.png)
+&nbsp; &nbsp; **(5)**
+<!-- \sigma (t) : [t_0, t_m] \rightarrow \mathbb{R}^3 \times SO(2),\ \sigma = \begin{bmatrix} x,y,z,\psi \end{bmatrix}^T -->
+
 
 
 
