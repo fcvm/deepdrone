@@ -66,8 +66,11 @@ java -jar Desktop/Programs\ and\ Services/JabRef-4.3.1.jar
 
 ## Minimum snap trajectory generation and control for quadrotors
 ### Equations
+<!-- For Latex rendering: https://www.quicklatex.com/ -->
 Angular velocities of frame B in frame W
-![equation](https://quicklatex.com/cache3/e2/ql_eca73988599f3a2e91fed570c778aee2_l3.png)    (1)
+
+![equation](https://quicklatex.com/cache3/e2/ql_eca73988599f3a2e91fed570c778aee2_l3.png)
+    **(1)**
 <!-- \omega_{BW} = p \vec x_B + q \vec y_B + r \vec z_B -->
 
 Control input
