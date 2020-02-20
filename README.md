@@ -70,9 +70,9 @@ Angular velocities of frame B in frame W
 <img src="https://latex.codecogs.com/gif.latex? \omega_{BW} = p \vec x_B + q \vec y_B + r \vec z_B" /> 
 
 
-```math
+\[
 SE = \frac{\sigma}{\sqrt{n}}
-```
+\]
 
 
 
