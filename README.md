@@ -66,7 +66,7 @@ java -jar Desktop/Programs\ and\ Services/JabRef-4.3.1.jar
 
 ## Minimum snap trajectory generation and control for quadrotors
 ### Figures
-![The flat outputs and the reference frames](/img/The flat outputs and the reference frames.png)
+![The flat outputs and the reference frames](https://github.com/fcvm/deepdrone/blob/master/img/The%20flat%20outputs%20and%20the%20reference%20frames.png)
 
 
 ### Equations
